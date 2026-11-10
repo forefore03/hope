@@ -1,0 +1,104 @@
+{
+  "status": "candidate_not_loaded_by_app",
+  "club": "베르힐CC 영종",
+  "course": "베르힐",
+  "hole": 1,
+  "checkedAt": "2026-11-11",
+  "par": 4,
+  "courseHoleMapping": {
+    "kakaoDisplayedNumber": "10",
+    "officialNumber": 1,
+    "status": "tentative_visual_match",
+    "evidence": [
+      "베르힐 코스 구역 표시",
+      "두 그린의 상대 배치",
+      "그린 오른쪽 벙커와 왼쪽 카트도로",
+      "레이크 구역 지도상 1번은 공식 베르힐 1번 후보에서 제외"
+    ]
+  },
+  "official": {
+    "source": "https://www.verthillccyj.com/course/courseGuide.asp?tab=verthill",
+    "scorecardSource": "https://www.verthillccyj.com/course/courseInfo.asp",
+    "whiteTeeMeters": {
+      "L": 384,
+      "R": 353
+    },
+    "summaryText": "385m / 350m",
+    "summaryStatus": "inconsistent_with_detailed_tee_rows_do_not_use"
+  },
+  "method": {
+    "type": "manual_image_interpretation_and_georeferenced_screen_calculation",
+    "fullyAutomated": false,
+    "referenceWgs84": {
+      "lat": 37.5257622,
+      "lon": 126.565117
+    },
+    "referenceMapXY": {
+      "x": 403896,
+      "y": 1118630,
+      "crs": "Kakao WCONGNAMUL"
+    },
+    "contextScreen": {
+      "referencePixel": [
+        1277,
+        568
+      ],
+      "metersPerPixel": 1,
+      "leftCandidatePixel": [
+        600,
+        306
+      ],
+      "rightCandidatePixel": [
+        645,
+        309
+      ]
+    },
+    "refinement": {
+      "knownMapXY": {
+        "x": 402203,
+        "y": 1119285
+      },
+      "markerPixel": [
+        879,
+        468
+      ],
+      "metersPerPixel": 0.25,
+      "leftCenterPixel": [
+        898,
+        477
+      ],
+      "rightCenterPixel": [
+        1065,
+        482
+      ]
+    },
+    "conversion": "WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326, pyproj Transformer(always_xy=True)",
+    "imageryDate": "not_confirmed",
+    "accuracyMeters": null,
+    "validation": "Candidates replotted in Kakao aerial view and visually located inside corresponding green outlines. This checks plotting consistency, not independent absolute accuracy."
+  },
+  "greens": [
+    {
+      "id": "L",
+      "label": "좌그린 후보",
+      "lat": 37.52807185,
+      "lon": 126.55749613,
+      "reviewUrl": "https://map.kakao.com/?urlX=402215.0&urlY=1119280.0&name=%EB%B2%A0%EB%A5%B4%ED%9E%901+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4"
+    },
+    {
+      "id": "R",
+      "label": "우그린 후보",
+      "lat": 37.52806235,
+      "lon": 126.5579685,
+      "reviewUrl": "https://map.kakao.com/?urlX=402319.0&urlY=1119276.0&name=%EB%B2%A0%EB%A5%B4%ED%9E%901+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4"
+    }
+  ],
+  "limitations": [
+    "홀 번호·좌우 구분은 영상 대조에 따른 잠정 판단이며 현장 확인 전이다.",
+    "중앙은 항공사진 윤곽의 시각적 중심 추정점이며 실측점이 아니다.",
+    "공식 거리표를 좌표 정확도의 증거로 사용하지 않았다.",
+    "OSM 조회는 접속 실패로 등록 유무를 확인하지 못했다.",
+    "지도 및 항공사진 데이터의 서비스 이용 조건과 재사용 조건 검토는 미완료이다.",
+    "운영 앱의 지원 골프장·거리 계산에는 아직 반영하지 않았다."
+  ]
+}
