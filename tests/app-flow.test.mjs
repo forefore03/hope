@@ -51,3 +51,5 @@ test('Dunes course, left/right switches and nine-hole course transition',async()
 });
 
 test('explicit departure clears personal state and allows a fresh outing',async()=>{await get('#finish-leave').onclick();assert.equal(saved.has('hope-outing-v1'),false);assert.equal(saved.has('hope-live-round'),false);assert.equal(saved.has('hope-course'),false);assert.equal(get('#finish-parking').hidden,true);await get('#new-outing').onclick();assert.equal(get('#parking-screen').hidden,false);assert.equal(get('#finish-leave').hidden,false);assert.equal(JSON.parse(saved.get('hope-outing-v1')).parking,null);});
+
+test('welcome can return to parking without deleting the current outing',()=>{get('#parking-skip').onclick();const before=JSON.parse(saved.get('hope-outing-v1'));get('#parking-back').onclick();assert.equal(get('#parking-screen').hidden,false);assert.equal(get('#welcome').hidden,true);const after=JSON.parse(saved.get('hope-outing-v1'));assert.equal(after.id,before.id);assert.equal(after.phase,'parking');get('#parking-skip').onclick();assert.equal(get('#welcome').hidden,false);});

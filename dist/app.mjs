@@ -1,4 +1,4 @@
-import {outing} from './outing.mjs';
+import {outing} from './outing.mjs?v=parking-return-1';
 import {distance,measure,validatePack,greenFor} from './golf-core.mjs';
 const $=s=>document.querySelector(s);
 const storage={get(k){try{return JSON.parse(localStorage.getItem(k));}catch{return null;}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}};
