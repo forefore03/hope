@@ -1,0 +1,213 @@
+{
+  "resolved": [
+    {
+      "course": "urban",
+      "hole": 1,
+      "source": "https://kko.to/idzjyP3gnT",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416358&urlY=1077205"
+    },
+    {
+      "course": "urban",
+      "hole": 2,
+      "source": "https://kko.to/SXvC-UwAXW",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417155&urlY=1076581"
+    },
+    {
+      "course": "urban",
+      "hole": 3,
+      "source": "https://kko.to/RY6OFbj_Od",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=418126&urlY=1077691"
+    },
+    {
+      "course": "urban",
+      "hole": 4,
+      "source": "https://kko.to/74nLy3v2nH",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=417383&urlY=1078270"
+    },
+    {
+      "course": "urban",
+      "hole": 5,
+      "source": "https://kko.to/Iy0jgUrScz",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417463&urlY=1078611"
+    },
+    {
+      "course": "urban",
+      "hole": 6,
+      "source": "https://kko.to/VCQMfsgfMv",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=418318&urlY=1077851"
+    },
+    {
+      "course": "urban",
+      "hole": 7,
+      "source": "https://kko.to/EDFX5-lPUF",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417298&urlY=1076831"
+    },
+    {
+      "course": "urban",
+      "hole": 8,
+      "source": "https://kko.to/HZv5z4CKYx",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416678&urlY=1077091"
+    },
+    {
+      "course": "urban",
+      "hole": 9,
+      "source": "https://kko.to/x-p54o1zPg",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416965&urlY=1077982"
+    },
+    {
+      "course": "links",
+      "hole": 1,
+      "source": "https://kko.to/-9jAK9DAf3",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415902&urlY=1077606"
+    },
+    {
+      "course": "links",
+      "hole": 2,
+      "source": "https://kko.to/rMZBZCcuXW",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415478&urlY=1078274"
+    },
+    {
+      "course": "links",
+      "hole": 3,
+      "source": "https://kko.to/vDmqhsfnpJ",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416149&urlY=1079198"
+    },
+    {
+      "course": "links",
+      "hole": 4,
+      "source": "https://kko.to/kO2b7d7rs5",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416462&urlY=1078987"
+    },
+    {
+      "course": "links",
+      "hole": 5,
+      "source": "https://kko.to/by3B6VAqYw",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417185&urlY=1078757"
+    },
+    {
+      "course": "links",
+      "hole": 6,
+      "source": "https://kko.to/K5a6Z0f4kx",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416224&urlY=1079483"
+    },
+    {
+      "course": "links",
+      "hole": 7,
+      "source": "https://kko.to/b_GrmlBDzn",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415577&urlY=1078665"
+    },
+    {
+      "course": "links",
+      "hole": 8,
+      "source": "https://kko.to/eITRzKyBa0",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415672&urlY=1077870"
+    },
+    {
+      "course": "links",
+      "hole": 9,
+      "source": "https://kko.to/Ed3dMnPIjD",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416646&urlY=1078376"
+    }
+  ],
+  "official": {
+    "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+    "unit": "yd",
+    "checkedAt": "2026-11-11",
+    "rows": [
+      {
+        "course": "urban",
+        "hole": 1,
+        "text": "Par 4\n\nHDCP 17\n\nBlack\n428yd\nBlue\n378yd\nWhite\n359yd\nYellow\n343yd\nRed\n293yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 2,
+        "text": "Par 4\n\nHDCP 15\n\nBlack\n426yd\nBlue\n415yd\nWhite\n377yd\nYellow\n363yd\nRed\n313yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 3,
+        "text": "Par 5\n\nHDCP 9\n\nBlack\n593yd\nBlue\n547yd\nWhite\n529yd\nYellow\n513yd\nRed\n438yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 4,
+        "text": "Par 4\n\nHDCP 11\n\nBlack\n386yd\nBlue\n332yd\nWhite\n317yd\nYellow\n317yd\nRed\n273yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 5,
+        "text": "Par 3\n\nHDCP 13\n\nBlack\n172yd\nBlue\n151yd\nWhite\n136yd\nYellow\n115yd\nRed\n115yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 6,
+        "text": "Par 4\n\nHDCP 1\n\nBlack\n487yd\nBlue\n471yd\nWhite\n439yd\nYellow\n390yd\nRed\n353yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 7,
+        "text": "Par 5\n\nHDCP 5\n\nBlack\n559yd\nBlue\n526yd\nWhite\n505yd\nYellow\n483yd\nRed\n440yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 8,
+        "text": "Par 3\n\nHDCP 7\n\nBlack\n235yd\nBlue\n193yd\nWhite\n175yd\nYellow\n138yd\nRed\n138yd\n\n"
+      },
+      {
+        "course": "urban",
+        "hole": 9,
+        "text": "Par 4\n\nHDCP 3\n\nBlack\n451yd\nBlue\n431yd\nWhite\n402yd\nYellow\n363yd\nRed\n318yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 1,
+        "text": "Par 4\n\nHDCP 6\n\nBlack\n447yd\nBlue\n423yd\nWhite\n378yd\nYellow\n358yd\nRed\n306yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 2,
+        "text": "Par 4\n\nHDCP 10\n\nBlack\n435yd\nBlue\n413yd\nWhite\n365yd\nYellow\n321yd\nRed\n278yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 3,
+        "text": "Par 4\n\nHDCP 14\n\nBlack\n466yd\nBlue\n446yd\nWhite\n402yd\nYellow\n359yd\nRed\n312yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 4,
+        "text": "Par 3\n\nHDCP 17\n\nBlack\n208yd\nBlue\n182yd\nWhite\n166yd\nYellow\n150yd\nRed\n125yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 5,
+        "text": "Par 4\n\nHDCP 12\n\nBlack\n372yd\nBlue\n340yd\nWhite\n322yd\nYellow\n284yd\nRed\n257yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 6,
+        "text": "Par 5\n\nHDCP 2\n\nBlack\n577yd\nBlue\n533yd\nWhite\n520yd\nYellow\n487yd\nRed\n442yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 7,
+        "text": "Par 4\n\nHDCP 4\n\nBlack\n480yd\nBlue\n460yd\nWhite\n409yd\nYellow\n346yd\nRed\n346yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 8,
+        "text": "Par 3\n\nHDCP 16\n\nBlack\n203yd\nBlue\n187yd\nWhite\n164yd\nYellow\n145yd\nRed\n125yd\n\n"
+      },
+      {
+        "course": "links",
+        "hole": 9,
+        "text": "Par 5\n\nHDCP 8\n\nBlack\n545yd\nBlue\n506yd\nWhite\n490yd\nYellow\n417yd\nRed\n407yd\n\n"
+      }
+    ]
+  },
+  "conversionRegression": {
+    "existingPoints": 32,
+    "maxDifferenceMeters": 1.820666988288796e-05
+  }
+}

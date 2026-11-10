@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "id": "jack-nicklaus-korea",
+  "name": "잭 니클라우스 골프클럽 코리아",
+  "aliases": [
+    "잭니",
+    "잭니클라우스GC코리아",
+    "잭니클라우스 GC",
+    "잭 니클라우스 골프클럽 코리아"
+  ],
+  "revision": "2026-11-11.1",
+  "location": {
+    "lat": 37.3814676485051,
+    "lon": 126.618009916
+  },
+  "geometryStatus": "user_selected_field_unverified",
+  "personalUse": true,
+  "officialScorecard": {
+    "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+    "checkedAt": "2026-11-11",
+    "tee": "White",
+    "unit": "yd",
+    "metersPerYard": 0.9144
+  },
+  "courses": [
+    {
+      "id": "urban",
+      "name": "어반",
+      "nextCourse": "links",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteTee": {
+            "yards": 359,
+            "meters": 328.2696,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.37665931306519,
+              "lon": 126.62225949097547,
+              "source": {
+                "url": "https://kko.to/idzjyP3gnT",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416358&urlY=1077205",
+                "xy": {
+                  "x": 416358,
+                  "y": 1077205,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "whiteTee": {
+            "yards": 377,
+            "meters": 344.7288,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.37442184367057,
+              "lon": 126.62586996896144,
+              "source": {
+                "url": "https://kko.to/SXvC-UwAXW",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417155&urlY=1076581",
+                "xy": {
+                  "x": 417155,
+                  "y": 1076581,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "whiteTee": {
+            "yards": 529,
+            "meters": 483.7176,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.37843610118694,
+              "lon": 126.63023530627844,
+              "source": {
+                "url": "https://kko.to/RY6OFbj_Od",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=418126&urlY=1077691",
+                "xy": {
+                  "x": 418126,
+                  "y": 1077691,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "whiteTee": {
+            "yards": 317,
+            "meters": 289.8648,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.3805122907734,
+              "lon": 126.62686944774892,
+              "source": {
+                "url": "https://kko.to/74nLy3v2nH",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=417383&urlY=1078270",
+                "xy": {
+                  "x": 417383,
+                  "y": 1078270,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 3,
+          "whiteTee": {
+            "yards": 136,
+            "meters": 124.3584,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.38174240122518,
+              "lon": 126.62722466862702,
+              "source": {
+                "url": "https://kko.to/Iy0jgUrScz",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417463&urlY=1078611",
+                "xy": {
+                  "x": 417463,
+                  "y": 1078611,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "whiteTee": {
+            "yards": 439,
+            "meters": 401.4216,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.379015452879536,
+              "lon": 126.63109958831333,
+              "source": {
+                "url": "https://kko.to/VCQMfsgfMv",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=418318&urlY=1077851",
+                "xy": {
+                  "x": 418318,
+                  "y": 1077851,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 5,
+          "whiteTee": {
+            "yards": 505,
+            "meters": 461.772,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.37532489079744,
+              "lon": 126.62651128045565,
+              "source": {
+                "url": "https://kko.to/EDFX5-lPUF",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417298&urlY=1076831",
+                "xy": {
+                  "x": 417298,
+                  "y": 1076831,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "whiteTee": {
+            "yards": 175,
+            "meters": 160.02,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.37625306145092,
+              "lon": 126.62370668565009,
+              "source": {
+                "url": "https://kko.to/HZv5z4CKYx",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416678&urlY=1077091",
+                "xy": {
+                  "x": 416678,
+                  "y": 1077091,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "whiteTee": {
+            "yards": 402,
+            "meters": 367.5888,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.379468361574595,
+              "lon": 126.62498680230846,
+              "source": {
+                "url": "https://kko.to/x-p54o1zPg",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416965&urlY=1077982",
+                "xy": {
+                  "x": 416965,
+                  "y": 1077982,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "name": "링크스",
+      "nextCourse": "urban",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteTee": {
+            "yards": 378,
+            "meters": 345.6432,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.37809792976413,
+              "lon": 126.62019287645347,
+              "source": {
+                "url": "https://kko.to/-9jAK9DAf3",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415902&urlY=1077606",
+                "xy": {
+                  "x": 415902,
+                  "y": 1077606,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "whiteTee": {
+            "yards": 365,
+            "meters": 333.756,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.38049924883837,
+              "lon": 126.61826582525796,
+              "source": {
+                "url": "https://kko.to/rMZBZCcuXW",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415478&urlY=1078274",
+                "xy": {
+                  "x": 415478,
+                  "y": 1078274,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "whiteTee": {
+            "yards": 402,
+            "meters": 367.5888,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.38383910405626,
+              "lon": 126.62127951403767,
+              "source": {
+                "url": "https://kko.to/vDmqhsfnpJ",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416149&urlY=1079198",
+                "xy": {
+                  "x": 416149,
+                  "y": 1079198,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "whiteTee": {
+            "yards": 166,
+            "meters": 151.7904,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.38308317515139,
+              "lon": 126.62269698848719,
+              "source": {
+                "url": "https://kko.to/kO2b7d7rs5",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416462&urlY=1078987",
+                "xy": {
+                  "x": 416462,
+                  "y": 1078987,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteTee": {
+            "yards": 322,
+            "meters": 294.4368,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.382264623760534,
+              "lon": 126.62596650278594,
+              "source": {
+                "url": "https://kko.to/by3B6VAqYw",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417185&urlY=1078757",
+                "xy": {
+                  "x": 417185,
+                  "y": 1078757,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 5,
+          "whiteTee": {
+            "yards": 520,
+            "meters": 475.488,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.38486733303868,
+              "lon": 126.62161309002319,
+              "source": {
+                "url": "https://kko.to/K5a6Z0f4kx",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416224&urlY=1079483",
+                "xy": {
+                  "x": 416224,
+                  "y": 1079483,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteTee": {
+            "yards": 409,
+            "meters": 373.9896,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.38190986189512,
+              "lon": 126.61870580396864,
+              "source": {
+                "url": "https://kko.to/b_GrmlBDzn",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415577&urlY=1078665",
+                "xy": {
+                  "x": 415577,
+                  "y": 1078665,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "whiteTee": {
+            "yards": 164,
+            "meters": 149.9616,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.37904605037513,
+              "lon": 126.61914934995514,
+              "source": {
+                "url": "https://kko.to/eITRzKyBa0",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=415672&urlY=1077870",
+                "xy": {
+                  "x": 415672,
+                  "y": 1077870,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 5,
+          "whiteTee": {
+            "yards": 490,
+            "meters": 448.056,
+            "source": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.3808837682025,
+              "lon": 126.62353902440135,
+              "source": {
+                "url": "https://kko.to/Ed3dMnPIjD",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416646&urlY=1078376",
+                "xy": {
+                  "x": 416646,
+                  "y": 1078376,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> Korea 2000 Central Belt (EPSG:5181) -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

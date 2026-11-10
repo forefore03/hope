@@ -14,7 +14,9 @@ globalThis.document={querySelector:get,querySelectorAll:s=>s==='[data-photo-open
 const saved=new Map();globalThis.localStorage={getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v),removeItem:k=>saved.delete(k)};
 globalThis.indexedDB={open(){throw Error('media unavailable in this controller test');}};
 const pack=JSON.parse(fs.readFileSync(new URL('../dist/data/flamingo.json',import.meta.url)));
-globalThis.fetch=async url=>({ok:true,json:async()=>String(url).includes('golf-courses')?[{name:'플라밍고 CC',...pack.location},{name:'다른 CC',lat:38,lon:127}]:pack});
+const jack=JSON.parse(fs.readFileSync(new URL('../dist/data/jack-nicklaus-korea.json',import.meta.url)));
+let clubResults=[{name:'플라밍고 CC',...pack.location},{name:'다른 CC',lat:38,lon:127}];
+globalThis.fetch=async url=>({ok:true,json:async()=>String(url).includes('golf-courses')?clubResults:String(url).includes('jack-nicklaus')?jack:pack});
 let gpsCalls=0,position=pack.courses[0].holes[0].tees[0];
 Object.defineProperty(globalThis,'navigator',{configurable:true,value:{geolocation:{getCurrentPosition(resolve){gpsCalls++;resolve({coords:{latitude:position.lat,longitude:position.lon,accuracy:5}});}}}});
 test('parking skip, GPS refresh, 12th-hole nudge and 18-hole finish without score entry',async()=>{
@@ -53,3 +55,14 @@ test('Dunes course, left/right switches and nine-hole course transition',async()
 test('explicit departure clears personal state and allows a fresh outing',async()=>{await get('#finish-leave').onclick();assert.equal(saved.has('hope-outing-v1'),false);assert.equal(saved.has('hope-live-round'),false);assert.equal(saved.has('hope-course'),false);assert.equal(get('#finish-parking').hidden,true);await get('#new-outing').onclick();assert.equal(get('#parking-screen').hidden,false);assert.equal(get('#finish-leave').hidden,false);assert.equal(JSON.parse(saved.get('hope-outing-v1')).parking,null);});
 
 test('welcome can return to parking without deleting the current outing',()=>{get('#parking-skip').onclick();const before=JSON.parse(saved.get('hope-outing-v1'));get('#parking-back').onclick();assert.equal(get('#parking-screen').hidden,false);assert.equal(get('#welcome').hidden,true);const after=JSON.parse(saved.get('hope-outing-v1'));assert.equal(after.id,before.id);assert.equal(after.phase,'parking');get('#parking-skip').onclick();assert.equal(get('#welcome').hidden,false);});
+
+test('Jack Urban/Links selection, GPS refresh, course change and restoring shared Links ID stay in correct club',async()=>{
+ clubResults=[{name:'잭 니클라우스 골프클럽 코리아',...jack.location},{name:'플라밍고C.C',...pack.location}];
+ position={...jack.location};await get('#locate').onclick();get('#nearby-list').children[0].onclick();assert.deepEqual(get('#start-course').children.map(x=>x.value),['urban','links']);assert.equal(get('#start-course').value,'urban');
+ get('#start-course').value='urban';get('#start-hole').value='0';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();
+ let g=greenFor(jack,'urban',1);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));assert.ok(get('#tee-course').textContent.includes('어반 1번'));assert.ok(get('#hole').textContent.includes('PAR 4'));
+ position=interpolate(position,g,.5);await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,111);
+ get('#course').onchange({target:{value:'links'}});g=greenFor(jack,'links',1);position={lat:g.lat+.003,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));assert.ok(get('#tee-course').textContent.includes('링크스 1번'));
+ await import('../dist/app.mjs?restore-jack');for(let i=0;i<10;i++)await new Promise(setImmediate);assert.ok(get('#tee-course').textContent.includes('잭 니클라우스'));await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));
+ get('#return-setup').onclick();await get('#locate').onclick();get('#nearby-list').children[1].onclick();assert.deepEqual(get('#start-course').children.map(x=>x.value),['links','park','dunes']);
+});
