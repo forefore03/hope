@@ -1,0 +1,2 @@
+Test dataset: https://github.com/SunJe/golf-course-finder/blob/master/data/golf_courses_import_geocoded_final.csv
+Retrieved 2026-11-09. Rows marked public_data. Coordinates and completeness not independently verified. Used for nearby discovery testing only.

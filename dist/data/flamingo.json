@@ -1,0 +1,989 @@
+{
+  "schemaVersion": 1,
+  "id": "flamingo",
+  "name": "플라밍고 CC",
+  "revision": "2026-11-10.dunes.1",
+  "location": {
+    "lat": 37.011687161382,
+    "lon": 126.58159117569
+  },
+  "personalUse": true,
+  "geometryStatus": "user_selected_field_unverified",
+  "courses": [
+    {
+      "id": "links",
+      "name": "링크스",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.009770186573164,
+              "lon": 126.58641579043629,
+              "source": {
+                "url": "https://kko.to/yNxEcs4xJS",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407977&urlY=975443",
+                "xy": {
+                  "x": 407977.0,
+                  "y": 975443.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.00977,
+                  "lon": 126.586416
+                },
+                "differenceMeters": 0.028,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": [
+            {
+              "id": "white-reference",
+              "lat": 37.01172976927694,
+              "lon": 126.58505234290159,
+              "source": {
+                "url": "https://kko.to/-Ss5jfUCMo",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407676&urlY=975988",
+                "xy": {
+                  "x": 407676.0,
+                  "y": 975988.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.01173,
+                  "lon": 126.585052
+                },
+                "differenceMeters": 0.04,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              },
+              "label": "화이트티 참고"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 6,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00435609892834,
+              "lon": 126.5862923245532,
+              "source": {
+                "url": "https://kko.to/NWVSCbCRkh",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=2&urlX=407943&urlY=973941",
+                "xy": {
+                  "x": 407943.0,
+                  "y": 973941.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.004356,
+                  "lon": 126.586292
+                },
+                "differenceMeters": 0.031,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00746132487152,
+              "lon": 126.58477892849788,
+              "source": {
+                "url": "https://kko.to/DJwv1mHwP7",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=1&urlX=407610&urlY=974804",
+                "xy": {
+                  "x": 407610.0,
+                  "y": 974804.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.007461,
+                  "lon": 126.584779
+                },
+                "differenceMeters": 0.037,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00560151038091,
+              "lon": 126.58478005573215,
+              "source": {
+                "url": "https://kko.to/OlGn5bZ_71",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407608&urlY=974288",
+                "xy": {
+                  "x": 407608.0,
+                  "y": 974288.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.005602,
+                  "lon": 126.58478
+                },
+                "differenceMeters": 0.055,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            },
+            {
+              "id": "B",
+              "lat": 37.006376105580834,
+              "lon": 126.58468596007688,
+              "source": {
+                "url": "https://kko.to/8gkpvn7XLj",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407588&urlY=974503",
+                "xy": {
+                  "x": 407588.0,
+                  "y": 974503.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.006376,
+                  "lon": 126.584686
+                },
+                "differenceMeters": 0.012,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00760962316674,
+              "lon": 126.58596009854269,
+              "source": {
+                "url": "https://kko.to/HNFIZ9DQvV",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407873&urlY=974844",
+                "xy": {
+                  "x": 407873.0,
+                  "y": 974844.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.00761,
+                  "lon": 126.58596
+                },
+                "differenceMeters": 0.043,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01130264651919,
+              "lon": 126.5845333115825,
+              "source": {
+                "url": "https://kko.to/eWB3cEsHqb",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407560&urlY=975870",
+                "xy": {
+                  "x": 407560.0,
+                  "y": 975870.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.011303,
+                  "lon": 126.584533
+                },
+                "differenceMeters": 0.048,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00832707882416,
+              "lon": 126.58498544915068,
+              "source": {
+                "url": "https://kko.to/KFiawNDeK_",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407657&urlY=975044",
+                "xy": {
+                  "x": 407657.0,
+                  "y": 975044.0,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "providedUrl": "https://kko.to/KFiawNDeK"
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.008327,
+                  "lon": 126.584985
+                },
+                "differenceMeters": 0.041,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09",
+                "linkCorrection": "Trailing underscore restored from handover Markdown; original truncated link returned 404."
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00710248668794,
+              "lon": 126.58317645879634,
+              "source": {
+                "url": "https://kko.to/IDho3X6eMC",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407253&urlY=974706",
+                "xy": {
+                  "x": 407253.0,
+                  "y": 974706.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.007102,
+                  "lon": 126.583176
+                },
+                "differenceMeters": 0.068,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01121064390726,
+              "lon": 126.58296525991115,
+              "source": {
+                "url": "https://kko.to/1pHe7mi1p3",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%B0%EB%8B%A88%EB%A1%9C+299&urlLevel=3&urlX=407211&urlY=975846",
+                "xy": {
+                  "x": 407211.0,
+                  "y": 975846.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.011211,
+                  "lon": 126.582965
+                },
+                "differenceMeters": 0.046,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        }
+      ],
+      "nextCourse": "park"
+    },
+    {
+      "id": "park",
+      "name": "파크",
+      "holes": [
+        {
+          "number": 1,
+          "par": 5,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00788621498906,
+              "lon": 126.58158122428888,
+              "source": {
+                "url": "https://kko.to/1J_Z5SCnrq",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=406899&urlY=974925",
+                "xy": {
+                  "x": 406899.0,
+                  "y": 974925.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.007886,
+                  "lon": 126.581581
+                },
+                "differenceMeters": 0.031,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": [
+            {
+              "id": "white-reference",
+              "lat": 37.012036010891755,
+              "lon": 126.58193601155443,
+              "source": {
+                "url": "https://kko.to/Pw0mVO_M85",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%B0%EB%8B%A88%EB%A1%9C+299&urlLevel=3&urlX=406983&urlY=976076",
+                "xy": {
+                  "x": 406983.0,
+                  "y": 976076.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.012036,
+                  "lon": 126.581936
+                },
+                "differenceMeters": 0.002,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              },
+              "label": "티박스 참고 · 화이트 미확정"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.0096161304396,
+              "lon": 126.57949985799927,
+              "source": {
+                "url": "https://kko.to/iQkQBQodNs",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=406438&urlY=975407",
+                "xy": {
+                  "x": 406438.0,
+                  "y": 975407.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.009616,
+                  "lon": 126.5795
+                },
+                "differenceMeters": 0.019,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.011698139925734,
+              "lon": 126.58117830046126,
+              "source": {
+                "url": "https://kko.to/urMydzcUFt",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%B0%EB%8B%A88%EB%A1%9C+299&urlLevel=3&urlX=406814&urlY=975983",
+                "xy": {
+                  "x": 406814.0,
+                  "y": 975983.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.011698,
+                  "lon": 126.581178
+                },
+                "differenceMeters": 0.031,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01014376396546,
+              "lon": 126.57989694904651,
+              "source": {
+                "url": "https://kko.to/dk8YI-tHdZ",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=406527&urlY=975553",
+                "xy": {
+                  "x": 406527.0,
+                  "y": 975553.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.010144,
+                  "lon": 126.579897
+                },
+                "differenceMeters": 0.027,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.007017770138894,
+              "lon": 126.58163542017007,
+              "source": {
+                "url": "https://kko.to/GQEukRI13m",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=406910&urlY=974684",
+                "xy": {
+                  "x": 406910.0,
+                  "y": 974684.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.007018,
+                  "lon": 126.581635
+                },
+                "differenceMeters": 0.045,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00723707079488,
+              "lon": 126.57842087599694,
+              "source": {
+                "url": "https://kko.to/y6u959vjDD",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=406195&urlY=974748",
+                "xy": {
+                  "x": 406195.0,
+                  "y": 974748.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.007237,
+                  "lon": 126.578421
+                },
+                "differenceMeters": 0.014,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00536705174851,
+              "lon": 126.58267360944922,
+              "source": {
+                "url": "https://kko.to/JznEylU_vD",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407139&urlY=974225",
+                "xy": {
+                  "x": 407139.0,
+                  "y": 974225.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.005367,
+                  "lon": 126.582674
+                },
+                "differenceMeters": 0.035,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.00641996092522,
+              "lon": 126.58280267785165,
+              "source": {
+                "url": "https://kko.to/DrXQDV0NQw",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407169&urlY=974517",
+                "xy": {
+                  "x": 407169.0,
+                  "y": 974517.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.00642,
+                  "lon": 126.582803
+                },
+                "differenceMeters": 0.029,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 9,
+          "par": 5,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01057486214506,
+              "lon": 126.58255974480583,
+              "source": {
+                "url": "https://kko.to/OgvbChhvac",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%BC%EB%B4%89%EB%A6%AC+2293&urlLevel=4&urlX=407120&urlY=975670",
+                "xy": {
+                  "x": 407120.0,
+                  "y": 975670.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "provided": {
+                  "lat": 37.010575,
+                  "lon": 126.58256
+                },
+                "differenceMeters": 0.027,
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-09"
+              }
+            }
+          ],
+          "tees": []
+        }
+      ],
+      "nextCourse": "links"
+    },
+    {
+      "id": "dunes",
+      "name": "듄스",
+      "parSource": "https://www.clublonge.com/Club/flamingo/Course",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01498054155373,
+              "lon": 126.58086364147566,
+              "source": {
+                "url": "https://kko.to/YxVeEQwGOG",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=406748&urlY=976894",
+                "xy": {
+                  "x": 406748.0,
+                  "y": 976894.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 2,
+          "par": 3,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01739834007712,
+              "lon": 126.58271569743457,
+              "source": {
+                "url": "https://kko.to/OuYaelAA-A",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=407163&urlY=977563",
+                "xy": {
+                  "x": 407163.0,
+                  "y": 977563.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "greens": [
+            {
+              "id": "L",
+              "lat": 37.01760346248743,
+              "lon": 126.58467880169302,
+              "source": {
+                "url": "https://kko.to/0devVp_izK",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=407600&urlY=977618",
+                "xy": {
+                  "x": 407600.0,
+                  "y": 977618.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              },
+              "side": "left",
+              "label": "좌그린"
+            },
+            {
+              "id": "R",
+              "lat": 37.01720594358428,
+              "lon": 126.5843798153905,
+              "source": {
+                "url": "https://kko.to/N3HticSJLy",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=407533&urlY=977508",
+                "xy": {
+                  "x": 407533.0,
+                  "y": 977508.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              },
+              "side": "right",
+              "label": "우그린"
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01393369717688,
+              "lon": 126.58348074141315,
+              "source": {
+                "url": "https://kko.to/qpomK-RH6d",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%82%B0%EB%8B%A88%EB%A1%9C+299&urlLevel=4&urlX=407329&urlY=976601",
+                "xy": {
+                  "x": 407329.0,
+                  "y": 976601.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.017127949291506,
+              "lon": 126.5857826078989,
+              "source": {
+                "url": "https://kko.to/d8ruE-UC5i",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=407845&urlY=977485",
+                "xy": {
+                  "x": 407845.0,
+                  "y": 977485.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 6,
+          "par": 5,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01349341076237,
+              "lon": 126.58744734117322,
+              "source": {
+                "url": "https://kko.to/WmNe_Jhpt5",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=408211&urlY=976475",
+                "xy": {
+                  "x": 408211.0,
+                  "y": 976475.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.016965382996005,
+              "lon": 126.58670941064238,
+              "source": {
+                "url": "https://kko.to/qVRlfjVgYY",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=408051&urlY=977439",
+                "xy": {
+                  "x": 408051.0,
+                  "y": 977439.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 8,
+          "par": 5,
+          "greens": [
+            {
+              "id": "L",
+              "lat": 37.01276654357925,
+              "lon": 126.58779285302663,
+              "source": {
+                "url": "https://kko.to/yr3EHUSCo8",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=408287&urlY=976273",
+                "xy": {
+                  "x": 408287.0,
+                  "y": 976273.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              },
+              "side": "left",
+              "label": "좌그린"
+            },
+            {
+              "id": "R",
+              "lat": 37.01240204813916,
+              "lon": 126.58765998684416,
+              "source": {
+                "url": "https://kko.to/zXc_ar1vdw",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=408257&urlY=976172",
+                "xy": {
+                  "x": 408257.0,
+                  "y": 976172.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              },
+              "side": "right",
+              "label": "우그린"
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.01338919500544,
+              "lon": 126.58443655715226,
+              "source": {
+                "url": "https://kko.to/Xf3aMbvXeI",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%B6%A9%EB%82%A8+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%84%9D%EB%AC%B8%EB%A9%B4+%EC%9E%A5%EA%B3%A0%ED%95%AD%EB%A6%AC+1418&urlLevel=4&urlX=407541&urlY=976449",
+                "xy": {
+                  "x": 407541.0,
+                  "y": 976449.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-10"
+              }
+            }
+          ],
+          "tees": []
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "링크스 4번 A/B는 좌·우 미확정",
+    "파크 1번 티의 화이트티 구분 미확정",
+    "모든 지점은 사용자가 선택한 잠정 좌표이며 현장 검증 전입니다.",
+    "듄스 3·8번 좌·우는 사용자 지정 구분. 7번·8번 좌그린은 최종 수정 링크 사용."
+  ]
+}
