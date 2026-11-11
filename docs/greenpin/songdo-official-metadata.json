@@ -1,0 +1,106 @@
+{
+  "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+  "checkedAt": "2026-11-11",
+  "courses": [
+    {
+      "name": "EAST",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteMeters": 383
+        },
+        {
+          "number": 2,
+          "par": 3,
+          "whiteMeters": 145
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "whiteMeters": 490
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "whiteMeters": 350
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteMeters": 360
+        },
+        {
+          "number": 6,
+          "par": 3,
+          "whiteMeters": 183
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteMeters": 319
+        },
+        {
+          "number": 8,
+          "par": 4,
+          "whiteMeters": 390
+        },
+        {
+          "number": 9,
+          "par": 5,
+          "whiteMeters": 498
+        }
+      ]
+    },
+    {
+      "name": "WEST",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteMeters": 324
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "whiteMeters": 344
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "whiteMeters": 539
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "whiteMeters": 175
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteMeters": 412
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "whiteMeters": 384
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteMeters": 332
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "whiteMeters": 180
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "whiteMeters": 414
+        }
+      ]
+    }
+  ]
+}

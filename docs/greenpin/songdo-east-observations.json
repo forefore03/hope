@@ -1,0 +1,234 @@
+{
+  "id": "golfzoncounty-songdo",
+  "club": "골프존카운티 송도",
+  "checkedAt": "2026-11-11",
+  "field": "not_checked",
+  "location": {
+    "lat": 37.35002354750652,
+    "lon": 126.59247059375407
+  },
+  "locationBasis": "EAST 1번 수집 좌표를 5km 범위 확인용으로만 사용",
+  "courses": [
+    {
+      "id": "east",
+      "name": "EAST",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "sourceUrl": "https://kko.to/YkQU70S7VH",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409730&urlY=1069842",
+          "verificationLabel": "송도 EAST 1번",
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%201%EB%B2%88,37.35002355,126.59247059",
+          "coordinatePinVerified": true,
+          "sourceMethod": "copied_map_url",
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "reason": "50m 및 30m 지도에서 핀 끝이 1번 번호와 단일 그린 내부 중앙 부근에 겹침. 첫 시도 핀은 남쪽으로 벗어나 제외; 재수집 핀만 확인. 공식 코스도의 EAST 상대 배치와 사후 대조 완료.",
+          "whiteTeeMeters": 383,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 2,
+          "sourceUrl": "https://kko.to/G4jChS_VmE",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409720&urlY=1069245",
+          "sourceMapXY": {
+            "x": 409720,
+            "y": 1069245
+          },
+          "lat": 37.34787178881406,
+          "lon": 126.59243708000388,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%202%EB%B2%88,37.34787179,126.59243708",
+          "verificationLabel": "송도 EAST 2번",
+          "par": 3,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "변환 핀을 열어 50m 지도에서 2번 번호와 단일 그린에 겹침 확인. 공식 전체 코스도의 EAST 배치와 사후 대조 완료.",
+          "whiteTeeMeters": 145,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 3,
+          "sourceUrl": "https://kko.to/wMwLifpCNB",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=3&urlX=408708&urlY=1070150",
+          "sourceMapXY": {
+            "x": 408708,
+            "y": 1070150
+          },
+          "lat": 37.351117602026775,
+          "lon": 126.58785075282394,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%203%EB%B2%88,37.35111760,126.58785075",
+          "verificationLabel": "송도 EAST 3번",
+          "par": 5,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "생성한 위경도 핀의 끝이 3번 번호와 단일 그린에 겹침. 공식 전체 코스도의 EAST 배치와 사후 대조 완료.",
+          "whiteTeeMeters": 490,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 4,
+          "sourceUrl": "https://kko.to/wopVXNH1ZN",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409247&urlY=1070430",
+          "sourceMapXY": {
+            "x": 409247,
+            "y": 1070430
+          },
+          "lat": 37.35213518127866,
+          "lon": 126.59027859497998,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%204%EB%B2%88,37.35213518,126.59027859",
+          "verificationLabel": "송도 EAST 4번",
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "변환 위경도 핀의 끝과 4번 번호·단일 그린 중앙 부근의 겹침 확인.",
+          "whiteTeeMeters": 350,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 5,
+          "sourceUrl": "https://kko.to/wyr0h79_oh",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408642&urlY=1070615",
+          "sourceMapXY": {
+            "x": 408642,
+            "y": 1070615
+          },
+          "lat": 37.35279243347216,
+          "lon": 126.58754362584428,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%205%EB%B2%88,37.35279243,126.58754363",
+          "verificationLabel": "송도 EAST 5번",
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "변환 핀이 5번 번호·단일 그린과 겹침. 공식 전체 코스도 EAST의 라우팅과 지도 1~9번 위치 대응 확인.",
+          "whiteTeeMeters": 360,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 6,
+          "sourceUrl": "https://kko.to/rFH-fbKV6Y",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409292&urlY=1070760",
+          "sourceMapXY": {
+            "x": 409292,
+            "y": 1070760
+          },
+          "lat": 37.35332521208161,
+          "lon": 126.59047529038027,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%206%EB%B2%88,37.35332521,126.59047529",
+          "verificationLabel": "송도 EAST 6번",
+          "par": 3,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "생성한 위경도 핀 끝이 6번 번호와 단일 그린에 겹침. 공식 전체 코스도 EAST의 배치와 대응.",
+          "whiteTeeMeters": 183,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 7,
+          "sourceUrl": "https://kko.to/5KpvfNlXWW",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=3&urlX=409178&urlY=1070060",
+          "sourceMapXY": {
+            "x": 409178,
+            "y": 1070060
+          },
+          "lat": 37.350800613522686,
+          "lon": 126.58997434140704,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%207%EB%B2%88,37.35080061,126.58997434",
+          "verificationLabel": "송도 EAST 7번",
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "위경도 변환 핀이 7번 번호와 단일 그린 중앙 부근에 겹침 확인. 공식 전체 코스도 EAST 배치와 대응.",
+          "whiteTeeMeters": 319,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 8,
+          "sourceUrl": "https://kko.to/cWEdlSAymc",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409657&urlY=1069465",
+          "sourceMapXY": {
+            "x": 409657,
+            "y": 1069465
+          },
+          "lat": 37.34866369429893,
+          "lon": 126.59214838846174,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%208%EB%B2%88,37.34866369,126.59214839",
+          "verificationLabel": "송도 EAST 8번",
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "위경도 변환 핀의 끝이 8번 번호·단일 그린 중앙 부근과 겹침 확인. 공식 전체 코스도 EAST 배치와 대응.",
+          "whiteTeeMeters": 390,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        },
+        {
+          "number": 9,
+          "sourceUrl": "https://kko.to/AHZyHM9ofM",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409667&urlY=1070725",
+          "sourceMapXY": {
+            "x": 409667,
+            "y": 1070725
+          },
+          "lat": 37.35320492025958,
+          "lon": 126.59216896794199,
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%209%EB%B2%88,37.35320492,126.59216897",
+          "verificationLabel": "송도 EAST 9번",
+          "par": 5,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "coordinatePinVerified": true,
+          "reason": "정확한 생성 위경도 링크를 열어 핀 끝이 9번 번호 및 단일 그린 중앙 부근과 겹침 확인. 공식 전체 코스도 EAST 마지막 홀 라우팅과 대응.",
+          "whiteTeeMeters": 498,
+          "officialSource": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68"
+        }
+      ]
+    }
+  ],
+  "collectionExceptions": [
+    {
+      "hole": 1,
+      "rejectedSourceUrl": "https://kko.to/-a9fbOCSVa",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409730&urlY=1069735",
+      "reason": "변환 핀이 1번 그린 남쪽에 벗어남; 원인 미확정. 번호 재지정 후 한 번 재수집한 링크로 확인."
+    }
+  ],
+  "identityEvidence": {
+    "officialCourseUrl": "https://golfzoncounty.com/golfclub/course?golfclubSeq=68",
+    "officialOverviewUrl": "https://media.golfzoncounty.com/web/upload/TU_GOLFCLUB/20250912/7b3200a769f2f30b_202509121010451921.jpg",
+    "basis": "공식 전체 코스도의 EAST 1~9 라우팅과 카카오 지도의 1~9번 상대 배치를 대조. WEST는 지도 10~18번에 해당하며 이번 수집에서는 제외.",
+    "mapEvidence": "각 번호의 실제 공유 URL을 열어 숫자 XY를 변환하고 별도 위경도 핀의 끝을 해당 단일 그린·번호와 대조.",
+    "limit": "주로 50m 지도 축척에서 확인했고 1번 재수집은 30m에서 추가 확인. 측량 또는 현장 GPS 정확도 검증 아님."
+  },
+  "courseScope": {
+    "requestedClub": "골프존카운티 송도",
+    "pilotCourse": "EAST",
+    "notCollected": [
+      "WEST 1~9"
+    ],
+    "runtimeChanged": false
+  }
+}
