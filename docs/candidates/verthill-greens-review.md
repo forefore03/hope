@@ -10,10 +10,10 @@
 
 | 코스·홀 | 확인할 후보 | 이유 |
 |---|---|---|
-| 베르힐 4번 | [좌그린 후보](https://map.kakao.com/?urlX=402450&urlY=1.11884e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) · [우그린 후보](https://map.kakao.com/?urlX=402402&urlY=1.1188e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 밝은 표면으로 그린 경계가 흐려 중심 위치 재확인 권장 |
-| 베르힐 5번 | [좌그린 후보](https://map.kakao.com/?urlX=401534&urlY=1.1191e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) · [우그린 후보](https://map.kakao.com/?urlX=401592&urlY=1.11914e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 밝은 표면으로 그린 경계가 흐려 중심 위치 재확인 권장 |
-| 스카이 6번 | [단일 그린 후보](https://map.kakao.com/?urlX=405289&urlY=1.11788e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 두 돌출부가 이어진 큰 단일 그린: 시각적 중앙 재확인 권장 |
-| 레이크 6번 | [단일 그린 후보](https://map.kakao.com/?urlX=402432&urlY=1.11988e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 물가의 굴곡진 단일 그린: 시각적 중앙 재확인 권장 |
+| 베르힐 4번 | [좌그린 후보](https://map.kakao.com/?urlX=402450.25&urlY=1118835&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) · [우그린 후보](https://map.kakao.com/?urlX=402401.5&urlY=1118797.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 밝은 표면으로 그린 경계가 흐려 중심 위치 재확인 권장 |
+| 베르힐 5번 | [좌그린 후보](https://map.kakao.com/?urlX=401534&urlY=1119102.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) · [우그린 후보](https://map.kakao.com/?urlX=401591.5&urlY=1119143.75&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 밝은 표면으로 그린 경계가 흐려 중심 위치 재확인 권장 |
+| 스카이 6번 | [단일 그린 후보](https://map.kakao.com/?urlX=405288.75&urlY=1117878.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 두 돌출부가 이어진 큰 단일 그린: 시각적 중앙 재확인 권장 |
+| 레이크 6번 | [단일 그린 후보](https://map.kakao.com/?urlX=402432.5&urlY=1119877.5&name=%EB%A0%88%EC%9D%B4%ED%81%AC+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 물가의 굴곡진 단일 그린: 시각적 중앙 재확인 권장 |
 
 이 4개 홀을 먼저 보는 이유는 사진상 경계 또는 단일 그린의 중앙 해석이 상대적으로 애매하기 때문입니다. 나머지가 실측 정확도로 확정됐다는 뜻은 아닙니다.
 
@@ -25,90 +25,90 @@
 
 | 홀 | PAR | 그린 후보 | 위도 | 경도 | 화이트티 | 지도 | 상태 |
 |---:|---:|---|---:|---:|---:|---|---|
-| 1 | 4 | 좌그린 후보 | 37.52803796 | 126.55746974 | 384 | [핀 확인](https://map.kakao.com/?urlX=402209&urlY=1.11927e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사용자 지도 선택 |
-| 1 | 4 | 우그린 후보 | 37.52805786 | 126.55797192 | 353 | [핀 확인](https://map.kakao.com/?urlX=402320&urlY=1.11928e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사용자 지도 선택 |
-| 2 | 5 | 좌그린 후보 | 37.52853127 | 126.55328661 | 488 | [핀 확인](https://map.kakao.com/?urlX=401285&urlY=1.11941e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 2 | 5 | 우그린 후보 | 37.52841056 | 126.55353056 | 486 | [핀 확인](https://map.kakao.com/?urlX=401339&urlY=1.11938e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 3 | 좌그린 후보 | 37.52849724 | 126.55501207 | 132 | [핀 확인](https://map.kakao.com/?urlX=401666&urlY=1.1194e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 3 | 우그린 후보 | 37.52834042 | 126.55523926 | 145 | [핀 확인](https://map.kakao.com/?urlX=401716&urlY=1.11936e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 4 | 4 | 좌그린 후보 | 37.52647435 | 126.55857067 | 348 | [핀 확인](https://map.kakao.com/?urlX=402450&urlY=1.11884e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
-| 4 | 4 | 우그린 후보 | 37.52633838 | 126.55835087 | 340 | [핀 확인](https://map.kakao.com/?urlX=402402&urlY=1.1188e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
-| 5 | 4 | 좌그린 후보 | 37.52742282 | 126.55441886 | 306 | [핀 확인](https://map.kakao.com/?urlX=401534&urlY=1.1191e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
-| 5 | 4 | 우그린 후보 | 37.52757246 | 126.55467817 | 313 | [핀 확인](https://map.kakao.com/?urlX=401592&urlY=1.11914e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
-| 6 | 5 | 좌그린 후보 | 37.52589310 | 126.55974949 | 496 | [핀 확인](https://map.kakao.com/?urlX=402710&urlY=1.11867e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 6 | 5 | 우그린 후보 | 37.52553368 | 126.56001180 | 516 | [핀 확인](https://map.kakao.com/?urlX=402768&urlY=1.11857e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 7 | 4 | 좌그린 후보 | 37.52469213 | 126.55663427 | 369 | [핀 확인](https://map.kakao.com/?urlX=402020&urlY=1.11834e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 7 | 4 | 우그린 후보 | 37.52479685 | 126.55692778 | 347 | [핀 확인](https://map.kakao.com/?urlX=402085&urlY=1.11837e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 3 | 좌그린 후보 | 37.52337321 | 126.55811269 | 152 | [핀 확인](https://map.kakao.com/?urlX=402345&urlY=1.11798e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 3 | 우그린 후보 | 37.52310738 | 126.55810294 | 170 | [핀 확인](https://map.kakao.com/?urlX=402342&urlY=1.1179e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 4 | 좌그린 후보 | 37.52496234 | 126.56143489 | 412 | [핀 확인](https://map.kakao.com/?urlX=403081&urlY=1.11841e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 4 | 우그린 후보 | 37.52476008 | 126.56156051 | 412 | [핀 확인](https://map.kakao.com/?urlX=403109&urlY=1.11836e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 1 | 4 | 좌그린 후보 | 37.52803796 | 126.55746974 | 384 | [핀 확인](https://map.kakao.com/?urlX=402209&urlY=1119270&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사용자 지도 선택 |
+| 1 | 4 | 우그린 후보 | 37.52805786 | 126.55797192 | 353 | [핀 확인](https://map.kakao.com/?urlX=402320&urlY=1119275&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사용자 지도 선택 |
+| 2 | 5 | 좌그린 후보 | 37.52853127 | 126.55328661 | 488 | [핀 확인](https://map.kakao.com/?urlX=401285.25&urlY=1119411.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 2 | 5 | 우그린 후보 | 37.52841056 | 126.55353056 | 486 | [핀 확인](https://map.kakao.com/?urlX=401339&urlY=1119377.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 3 | 좌그린 후보 | 37.52849724 | 126.55501207 | 132 | [핀 확인](https://map.kakao.com/?urlX=401666.5&urlY=1119400&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 3 | 우그린 후보 | 37.52834042 | 126.55523926 | 145 | [핀 확인](https://map.kakao.com/?urlX=401716.5&urlY=1119356.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 4 | 4 | 좌그린 후보 | 37.52647435 | 126.55857067 | 348 | [핀 확인](https://map.kakao.com/?urlX=402450.25&urlY=1118835&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
+| 4 | 4 | 우그린 후보 | 37.52633838 | 126.55835087 | 340 | [핀 확인](https://map.kakao.com/?urlX=402401.5&urlY=1118797.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
+| 5 | 4 | 좌그린 후보 | 37.52742282 | 126.55441886 | 306 | [핀 확인](https://map.kakao.com/?urlX=401534&urlY=1119102.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
+| 5 | 4 | 우그린 후보 | 37.52757246 | 126.55467817 | 313 | [핀 확인](https://map.kakao.com/?urlX=401591.5&urlY=1119143.75&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
+| 6 | 5 | 좌그린 후보 | 37.52589310 | 126.55974949 | 496 | [핀 확인](https://map.kakao.com/?urlX=402710&urlY=1118672.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 6 | 5 | 우그린 후보 | 37.52553368 | 126.56001180 | 516 | [핀 확인](https://map.kakao.com/?urlX=402767.5&urlY=1118572.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 7 | 4 | 좌그린 후보 | 37.52469213 | 126.55663427 | 369 | [핀 확인](https://map.kakao.com/?urlX=402020&urlY=1118342.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 7 | 4 | 우그린 후보 | 37.52479685 | 126.55692778 | 347 | [핀 확인](https://map.kakao.com/?urlX=402085&urlY=1118371.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 3 | 좌그린 후보 | 37.52337321 | 126.55811269 | 152 | [핀 확인](https://map.kakao.com/?urlX=402345&urlY=1117975&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 3 | 우그린 후보 | 37.52310738 | 126.55810294 | 170 | [핀 확인](https://map.kakao.com/?urlX=402342.5&urlY=1117901.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 4 | 좌그린 후보 | 37.52496234 | 126.56143489 | 412 | [핀 확인](https://map.kakao.com/?urlX=403081.25&urlY=1118412.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 4 | 우그린 후보 | 37.52476008 | 126.56156051 | 412 | [핀 확인](https://map.kakao.com/?urlX=403108.75&urlY=1118356.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
 
 ### 스카이 — 17개
 
 | 홀 | PAR | 그린 후보 | 위도 | 경도 | 화이트티 | 지도 | 상태 |
 |---:|---:|---|---:|---:|---:|---|---|
-| 1 | 4 | 좌그린 후보 | 37.52942093 | 126.56595108 | 316 | [핀 확인](https://map.kakao.com/?urlX=404085&urlY=1.11964e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 1 | 4 | 우그린 후보 | 37.52954383 | 126.56629543 | 351 | [핀 확인](https://map.kakao.com/?urlX=404161&urlY=1.11968e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 2 | 3 | 좌그린 후보 | 37.53062853 | 126.56725079 | 129 | [핀 확인](https://map.kakao.com/?urlX=404374&urlY=1.11998e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 2 | 3 | 우그린 후보 | 37.53034937 | 126.56729200 | 123 | [핀 확인](https://map.kakao.com/?urlX=404382&urlY=1.1199e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 5 | 좌그린 후보 | 37.52592851 | 126.56935384 | 474 | [핀 확인](https://map.kakao.com/?urlX=404832&urlY=1.11867e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 5 | 우그린 후보 | 37.52570296 | 126.56927029 | 469 | [핀 확인](https://map.kakao.com/?urlX=404814&urlY=1.11861e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 4 | 4 | 좌그린 후보 | 37.52525744 | 126.56570936 | 338 | [핀 확인](https://map.kakao.com/?urlX=404026&urlY=1.11849e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 4 | 4 | 우그린 후보 | 37.52551852 | 126.56565128 | 319 | [핀 확인](https://map.kakao.com/?urlX=404014&urlY=1.11856e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 5 | 4 | 좌그린 후보 | 37.52358308 | 126.56980851 | 381 | [핀 확인](https://map.kakao.com/?urlX=404930&urlY=1.11802e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 5 | 4 | 우그린 후보 | 37.52354117 | 126.56943544 | 367 | [핀 확인](https://map.kakao.com/?urlX=404848&urlY=1.11801e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 6 | 3 | 단일 그린 후보 | 37.52307542 | 126.57143475 | 198 | [핀 확인](https://map.kakao.com/?urlX=405289&urlY=1.11788e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
-| 7 | 4 | 좌그린 후보 | 37.52469696 | 126.57012452 | 304 | [핀 확인](https://map.kakao.com/?urlX=405001&urlY=1.11833e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 7 | 4 | 우그린 후보 | 37.52482377 | 126.57031045 | 293 | [핀 확인](https://map.kakao.com/?urlX=405042&urlY=1.11836e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 5 | 좌그린 후보 | 37.52986483 | 126.56783785 | 519 | [핀 확인](https://map.kakao.com/?urlX=404502&urlY=1.11977e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 5 | 우그린 후보 | 37.53001426 | 126.56804628 | 512 | [핀 확인](https://map.kakao.com/?urlX=404549&urlY=1.11981e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 4 | 좌그린 후보 | 37.52651233 | 126.56516472 | 340 | [핀 확인](https://map.kakao.com/?urlX=403908&urlY=1.11884e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 4 | 우그린 후보 | 37.52652457 | 126.56481961 | 366 | [핀 확인](https://map.kakao.com/?urlX=403831&urlY=1.11884e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 1 | 4 | 좌그린 후보 | 37.52942093 | 126.56595108 | 316 | [핀 확인](https://map.kakao.com/?urlX=404085&urlY=1119645&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 1 | 4 | 우그린 후보 | 37.52954383 | 126.56629543 | 351 | [핀 확인](https://map.kakao.com/?urlX=404161.25&urlY=1119678.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 2 | 3 | 좌그린 후보 | 37.53062853 | 126.56725079 | 129 | [핀 확인](https://map.kakao.com/?urlX=404373.75&urlY=1119978.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 2 | 3 | 우그린 후보 | 37.53034937 | 126.56729200 | 123 | [핀 확인](https://map.kakao.com/?urlX=404382.5&urlY=1119901.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 5 | 좌그린 후보 | 37.52592851 | 126.56935384 | 474 | [핀 확인](https://map.kakao.com/?urlX=404832.5&urlY=1118672.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 5 | 우그린 후보 | 37.52570296 | 126.56927029 | 469 | [핀 확인](https://map.kakao.com/?urlX=404813.75&urlY=1118610&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 4 | 4 | 좌그린 후보 | 37.52525744 | 126.56570936 | 338 | [핀 확인](https://map.kakao.com/?urlX=404026.25&urlY=1118490&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 4 | 4 | 우그린 후보 | 37.52551852 | 126.56565128 | 319 | [핀 확인](https://map.kakao.com/?urlX=404013.75&urlY=1118562.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 5 | 4 | 좌그린 후보 | 37.52358308 | 126.56980851 | 381 | [핀 확인](https://map.kakao.com/?urlX=404930&urlY=1118021.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 5 | 4 | 우그린 후보 | 37.52354117 | 126.56943544 | 367 | [핀 확인](https://map.kakao.com/?urlX=404847.5&urlY=1118010&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 6 | 3 | 단일 그린 후보 | 37.52307542 | 126.57143475 | 198 | [핀 확인](https://map.kakao.com/?urlX=405288.75&urlY=1117878.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
+| 7 | 4 | 좌그린 후보 | 37.52469696 | 126.57012452 | 304 | [핀 확인](https://map.kakao.com/?urlX=405001.25&urlY=1118330&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 7 | 4 | 우그린 후보 | 37.52482377 | 126.57031045 | 293 | [핀 확인](https://map.kakao.com/?urlX=405042.5&urlY=1118365&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 5 | 좌그린 후보 | 37.52986483 | 126.56783785 | 519 | [핀 확인](https://map.kakao.com/?urlX=404502.5&urlY=1119766.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 5 | 우그린 후보 | 37.53001426 | 126.56804628 | 512 | [핀 확인](https://map.kakao.com/?urlX=404548.75&urlY=1119807.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 4 | 좌그린 후보 | 37.52651233 | 126.56516472 | 340 | [핀 확인](https://map.kakao.com/?urlX=403907.5&urlY=1118838.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 4 | 우그린 후보 | 37.52652457 | 126.56481961 | 366 | [핀 확인](https://map.kakao.com/?urlX=403831.25&urlY=1118842.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
 
 ### 오션 — 17개
 
 | 홀 | PAR | 그린 후보 | 위도 | 경도 | 화이트티 | 지도 | 상태 |
 |---:|---:|---|---:|---:|---:|---|---|
-| 1 | 5 | 좌그린 후보 | 37.52227738 | 126.57001397 | 479 | [핀 확인](https://map.kakao.com/?urlX=404974&urlY=1.11766e%2B06&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 1 | 5 | 우그린 후보 | 37.52224455 | 126.56965782 | 473 | [핀 확인](https://map.kakao.com/?urlX=404895&urlY=1.11765e%2B06&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 2 | 4 | 좌그린 후보 | 37.52203479 | 126.57392939 | 296 | [핀 확인](https://map.kakao.com/?urlX=405839&urlY=1.11759e%2B06&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 2 | 4 | 우그린 후보 | 37.52187359 | 126.57420179 | 318 | [핀 확인](https://map.kakao.com/?urlX=405899&urlY=1.11754e%2B06&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 4 | 좌그린 후보 | 37.52510571 | 126.57103285 | 365 | [핀 확인](https://map.kakao.com/?urlX=405202&urlY=1.11844e%2B06&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 4 | 우그린 후보 | 37.52524178 | 126.57128660 | 352 | [핀 확인](https://map.kakao.com/?urlX=405259&urlY=1.11848e%2B06&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 4 | 3 | 좌그린 후보 | 37.52525447 | 126.57354907 | 129 | [핀 확인](https://map.kakao.com/?urlX=405759&urlY=1.11848e%2B06&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 4 | 3 | 우그린 후보 | 37.52502913 | 126.57352207 | 129 | [핀 확인](https://map.kakao.com/?urlX=405752&urlY=1.11842e%2B06&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 5 | 4 | 단일 그린 후보 | 37.52252653 | 126.57412455 | 287 | [핀 확인](https://map.kakao.com/?urlX=405882&urlY=1.11772e%2B06&name=%EC%98%A4%EC%85%98+5%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 6 | 3 | 좌그린 후보 | 37.52233921 | 126.57091294 | 143 | [핀 확인](https://map.kakao.com/?urlX=405172&urlY=1.11768e%2B06&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 6 | 3 | 우그린 후보 | 37.52256399 | 126.57078156 | 155 | [핀 확인](https://map.kakao.com/?urlX=405144&urlY=1.11774e%2B06&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 7 | 4 | 좌그린 후보 | 37.52187094 | 126.56482401 | 396 | [핀 확인](https://map.kakao.com/?urlX=403826&urlY=1.11755e%2B06&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 7 | 4 | 우그린 후보 | 37.52204724 | 126.56498702 | 381 | [핀 확인](https://map.kakao.com/?urlX=403862&urlY=1.1176e%2B06&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 4 | 좌그린 후보 | 37.52184183 | 126.56061040 | 396 | [핀 확인](https://map.kakao.com/?urlX=402895&urlY=1.11755e%2B06&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 4 | 우그린 후보 | 37.52201846 | 126.56086389 | 371 | [핀 확인](https://map.kakao.com/?urlX=402951&urlY=1.1176e%2B06&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 5 | 좌그린 후보 | 37.52467552 | 126.56305427 | 494 | [핀 확인](https://map.kakao.com/?urlX=403439&urlY=1.11833e%2B06&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 5 | 우그린 후보 | 37.52460000 | 126.56334318 | 485 | [핀 확인](https://map.kakao.com/?urlX=403502&urlY=1.11831e%2B06&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 1 | 5 | 좌그린 후보 | 37.52227738 | 126.57001397 | 479 | [핀 확인](https://map.kakao.com/?urlX=404973.75&urlY=1117658.75&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 1 | 5 | 우그린 후보 | 37.52224455 | 126.56965782 | 473 | [핀 확인](https://map.kakao.com/?urlX=404895&urlY=1117650&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 2 | 4 | 좌그린 후보 | 37.52203479 | 126.57392939 | 296 | [핀 확인](https://map.kakao.com/?urlX=405838.75&urlY=1117587.5&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 2 | 4 | 우그린 후보 | 37.52187359 | 126.57420179 | 318 | [핀 확인](https://map.kakao.com/?urlX=405898.75&urlY=1117542.5&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 4 | 좌그린 후보 | 37.52510571 | 126.57103285 | 365 | [핀 확인](https://map.kakao.com/?urlX=405202.5&urlY=1118442.5&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 4 | 우그린 후보 | 37.52524178 | 126.57128660 | 352 | [핀 확인](https://map.kakao.com/?urlX=405258.75&urlY=1118480&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 4 | 3 | 좌그린 후보 | 37.52525447 | 126.57354907 | 129 | [핀 확인](https://map.kakao.com/?urlX=405758.75&urlY=1118481.25&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 4 | 3 | 우그린 후보 | 37.52502913 | 126.57352207 | 129 | [핀 확인](https://map.kakao.com/?urlX=405752.5&urlY=1118418.75&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 5 | 4 | 단일 그린 후보 | 37.52252653 | 126.57412455 | 287 | [핀 확인](https://map.kakao.com/?urlX=405882.5&urlY=1117723.75&name=%EC%98%A4%EC%85%98+5%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 6 | 3 | 좌그린 후보 | 37.52233921 | 126.57091294 | 143 | [핀 확인](https://map.kakao.com/?urlX=405172.5&urlY=1117675&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 6 | 3 | 우그린 후보 | 37.52256399 | 126.57078156 | 155 | [핀 확인](https://map.kakao.com/?urlX=405143.75&urlY=1117737.5&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 7 | 4 | 좌그린 후보 | 37.52187094 | 126.56482401 | 396 | [핀 확인](https://map.kakao.com/?urlX=403826.25&urlY=1117551.25&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 7 | 4 | 우그린 후보 | 37.52204724 | 126.56498702 | 381 | [핀 확인](https://map.kakao.com/?urlX=403862.5&urlY=1117600&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 4 | 좌그린 후보 | 37.52184183 | 126.56061040 | 396 | [핀 확인](https://map.kakao.com/?urlX=402895&urlY=1117547.5&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 4 | 우그린 후보 | 37.52201846 | 126.56086389 | 371 | [핀 확인](https://map.kakao.com/?urlX=402951.25&urlY=1117596.25&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 5 | 좌그린 후보 | 37.52467552 | 126.56305427 | 494 | [핀 확인](https://map.kakao.com/?urlX=403438.75&urlY=1118331.25&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 5 | 우그린 후보 | 37.52460000 | 126.56334318 | 485 | [핀 확인](https://map.kakao.com/?urlX=403502.5&urlY=1118310&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
 
 ### 레이크 — 17개
 
 | 홀 | PAR | 그린 후보 | 위도 | 경도 | 화이트티 | 지도 | 상태 |
 |---:|---:|---|---:|---:|---:|---|---|
-| 1 | 4 | 좌그린 후보 | 37.52967769 | 126.56350025 | 288 | [핀 확인](https://map.kakao.com/?urlX=403544&urlY=1.11972e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 1 | 4 | 우그린 후보 | 37.52955712 | 126.56378945 | 271 | [핀 확인](https://map.kakao.com/?urlX=403608&urlY=1.11968e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 2 | 5 | 좌그린 후보 | 37.53309756 | 126.56001828 | 492 | [핀 확인](https://map.kakao.com/?urlX=402779&urlY=1.12067e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 2 | 5 | 우그린 후보 | 37.53316182 | 126.56034035 | 475 | [핀 확인](https://map.kakao.com/?urlX=402850&urlY=1.12069e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 4 | 좌그린 후보 | 37.53050576 | 126.55963187 | 384 | [핀 확인](https://map.kakao.com/?urlX=402690&urlY=1.11995e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 3 | 4 | 우그린 후보 | 37.53050916 | 126.55933770 | 373 | [핀 확인](https://map.kakao.com/?urlX=402625&urlY=1.11995e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 4 | 3 | 좌그린 후보 | 37.53178965 | 126.55962433 | 169 | [핀 확인](https://map.kakao.com/?urlX=402690&urlY=1.12031e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 4 | 3 | 우그린 후보 | 37.53179078 | 126.55992979 | 160 | [핀 확인](https://map.kakao.com/?urlX=402758&urlY=1.12031e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 5 | 5 | 좌그린 후보 | 37.52826380 | 126.56125152 | 489 | [핀 확인](https://map.kakao.com/?urlX=403045&urlY=1.11933e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 5 | 5 | 우그린 후보 | 37.52813672 | 126.56099772 | 492 | [핀 확인](https://map.kakao.com/?urlX=402989&urlY=1.11929e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 6 | 4 | 단일 그린 후보 | 37.53023111 | 126.55846820 | 301 | [핀 확인](https://map.kakao.com/?urlX=402432&urlY=1.11988e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
-| 7 | 3 | 좌그린 후보 | 37.53112112 | 126.55673764 | 139 | [핀 확인](https://map.kakao.com/?urlX=402051&urlY=1.12013e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 7 | 3 | 우그린 후보 | 37.53132001 | 126.55691748 | 137 | [핀 확인](https://map.kakao.com/?urlX=402091&urlY=1.12018e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 4 | 좌그린 후보 | 37.52872974 | 126.55934817 | 349 | [핀 확인](https://map.kakao.com/?urlX=402625&urlY=1.11946e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 8 | 4 | 우그린 후보 | 37.52856638 | 126.55903236 | 339 | [핀 확인](https://map.kakao.com/?urlX=402555&urlY=1.11942e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 4 | 좌그린 후보 | 37.52635971 | 126.56165862 | 324 | [핀 확인](https://map.kakao.com/?urlX=403132&urlY=1.1188e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
-| 9 | 4 | 우그린 후보 | 37.52608891 | 126.56152445 | 338 | [핀 확인](https://map.kakao.com/?urlX=403102&urlY=1.11872e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 1 | 4 | 좌그린 후보 | 37.52967769 | 126.56350025 | 288 | [핀 확인](https://map.kakao.com/?urlX=403543.75&urlY=1119718.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 1 | 4 | 우그린 후보 | 37.52955712 | 126.56378945 | 271 | [핀 확인](https://map.kakao.com/?urlX=403607.5&urlY=1119685&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 2 | 5 | 좌그린 후보 | 37.53309756 | 126.56001828 | 492 | [핀 확인](https://map.kakao.com/?urlX=402778.75&urlY=1120671.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 2 | 5 | 우그린 후보 | 37.53316182 | 126.56034035 | 475 | [핀 확인](https://map.kakao.com/?urlX=402850&urlY=1120688.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 4 | 좌그린 후보 | 37.53050576 | 126.55963187 | 384 | [핀 확인](https://map.kakao.com/?urlX=402690&urlY=1119952.5&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 3 | 4 | 우그린 후보 | 37.53050916 | 126.55933770 | 373 | [핀 확인](https://map.kakao.com/?urlX=402625&urlY=1119953.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 4 | 3 | 좌그린 후보 | 37.53178965 | 126.55962433 | 169 | [핀 확인](https://map.kakao.com/?urlX=402690&urlY=1120308.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 4 | 3 | 우그린 후보 | 37.53179078 | 126.55992979 | 160 | [핀 확인](https://map.kakao.com/?urlX=402757.5&urlY=1120308.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 5 | 5 | 좌그린 후보 | 37.52826380 | 126.56125152 | 489 | [핀 확인](https://map.kakao.com/?urlX=403045&urlY=1119328.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 5 | 5 | 우그린 후보 | 37.52813672 | 126.56099772 | 492 | [핀 확인](https://map.kakao.com/?urlX=402988.75&urlY=1119293.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 6 | 4 | 단일 그린 후보 | 37.53023111 | 126.55846820 | 301 | [핀 확인](https://map.kakao.com/?urlX=402432.5&urlY=1119877.5&name=%EB%A0%88%EC%9D%B4%ED%81%AC+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | **우선 확인** |
+| 7 | 3 | 좌그린 후보 | 37.53112112 | 126.55673764 | 139 | [핀 확인](https://map.kakao.com/?urlX=402051.25&urlY=1120126.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 7 | 3 | 우그린 후보 | 37.53132001 | 126.55691748 | 137 | [핀 확인](https://map.kakao.com/?urlX=402091.25&urlY=1120181.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 4 | 좌그린 후보 | 37.52872974 | 126.55934817 | 349 | [핀 확인](https://map.kakao.com/?urlX=402625&urlY=1119460&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 8 | 4 | 우그린 후보 | 37.52856638 | 126.55903236 | 339 | [핀 확인](https://map.kakao.com/?urlX=402555&urlY=1119415&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 4 | 좌그린 후보 | 37.52635971 | 126.56165862 | 324 | [핀 확인](https://map.kakao.com/?urlX=403132.5&urlY=1118800&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
+| 9 | 4 | 우그린 후보 | 37.52608891 | 126.56152445 | 338 | [핀 확인](https://map.kakao.com/?urlX=403102.5&urlY=1118725&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4) | 사진 대조 후보 |
 
 ## 확인 범위와 한계
 
