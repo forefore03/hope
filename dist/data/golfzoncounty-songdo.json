@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 1,
+  "id": "golfzoncounty-songdo",
+  "name": "골프존카운티 송도",
+  "aliases": [
+    "골프존카운티 송도",
+    "골프존카운티송도",
+    "골프존카운티 송도 (구.오렌지듄스)",
+    "오렌지듄스GC 송도",
+    "오렌지듄스 송도",
+    "골프존카운티 송도 골프장"
+  ],
+  "revision": "2026-11-12.1",
+  "location": {
+    "lat": 37.35002354750652,
+    "lon": 126.59247059375407
+  },
+  "personalUse": true,
+  "geometryStatus": "user_selected_field_unverified",
+  "courses": [
+    {
+      "id": "east",
+      "name": "EAST",
+      "nextCourse": "west",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteTee": {
+            "meters": 383,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35001992792944,
+              "lon": 126.59246609877879,
+              "source": {
+                "url": "https://kko.to/HIm-7vjY1_",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409729&urlY=1069841",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20EAST%201%EB%B2%88,37.35001993,126.59246610",
+                "xy": {
+                  "x": 409729.0,
+                  "y": 1069841.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 2,
+          "par": 3,
+          "whiteTee": {
+            "meters": 145,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.34787178881406,
+              "lon": 126.59243708000388,
+              "source": {
+                "url": "https://kko.to/G4jChS_VmE",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409720&urlY=1069245",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%202%EB%B2%88,37.34787179,126.59243708",
+                "xy": {
+                  "x": 409720.0,
+                  "y": 1069245.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "whiteTee": {
+            "meters": 490,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.351117602026775,
+              "lon": 126.58785075282394,
+              "source": {
+                "url": "https://kko.to/wMwLifpCNB",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=3&urlX=408708&urlY=1070150",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%203%EB%B2%88,37.35111760,126.58785075",
+                "xy": {
+                  "x": 408708.0,
+                  "y": 1070150.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "whiteTee": {
+            "meters": 350,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35213518127866,
+              "lon": 126.59027859497998,
+              "source": {
+                "url": "https://kko.to/wopVXNH1ZN",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409247&urlY=1070430",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%204%EB%B2%88,37.35213518,126.59027859",
+                "xy": {
+                  "x": 409247.0,
+                  "y": 1070430.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteTee": {
+            "meters": 360,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35279243347216,
+              "lon": 126.58754362584428,
+              "source": {
+                "url": "https://kko.to/wyr0h79_oh",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408642&urlY=1070615",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%205%EB%B2%88,37.35279243,126.58754363",
+                "xy": {
+                  "x": 408642.0,
+                  "y": 1070615.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 6,
+          "par": 3,
+          "whiteTee": {
+            "meters": 183,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35332521208161,
+              "lon": 126.59047529038027,
+              "source": {
+                "url": "https://kko.to/rFH-fbKV6Y",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409292&urlY=1070760",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%206%EB%B2%88,37.35332521,126.59047529",
+                "xy": {
+                  "x": 409292.0,
+                  "y": 1070760.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteTee": {
+            "meters": 319,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.350800613522686,
+              "lon": 126.58997434140704,
+              "source": {
+                "url": "https://kko.to/5KpvfNlXWW",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=3&urlX=409178&urlY=1070060",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%207%EB%B2%88,37.35080061,126.58997434",
+                "xy": {
+                  "x": 409178.0,
+                  "y": 1070060.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 8,
+          "par": 4,
+          "whiteTee": {
+            "meters": 390,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.34866369429893,
+              "lon": 126.59214838846174,
+              "source": {
+                "url": "https://kko.to/cWEdlSAymc",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409657&urlY=1069465",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%208%EB%B2%88,37.34866369,126.59214839",
+                "xy": {
+                  "x": 409657.0,
+                  "y": 1069465.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 9,
+          "par": 5,
+          "whiteTee": {
+            "meters": 498,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35320492025958,
+              "lon": 126.59216896794199,
+              "source": {
+                "url": "https://kko.to/AHZyHM9ofM",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409667&urlY=1070725",
+                "verificationUrl": "https://map.kakao.com/link/map/%EC%86%A1%EB%8F%84%20EAST%209%EB%B2%88,37.35320492,126.59216897",
+                "xy": {
+                  "x": 409667.0,
+                  "y": 1070725.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "map_pin_checked_field_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ],
+          "tees": []
+        }
+      ]
+    },
+    {
+      "id": "west",
+      "name": "WEST",
+      "nextCourse": "east",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteTee": {
+            "meters": 324,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35343750594179,
+              "lon": 126.5875265522077,
+              "source": {
+                "url": "https://kko.to/o_RXSLKpWJ",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408639&urlY=1070794",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%201%EB%B2%88,37.35343751,126.58752655",
+                "xy": {
+                  "x": 408639.0,
+                  "y": 1070794.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "whiteTee": {
+            "meters": 344,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.351025463516734,
+              "lon": 126.58623502982883,
+              "source": {
+                "url": "https://kko.to/Zh5A2aSgZ_",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408350&urlY=1070126",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%202%EB%B2%88,37.35102546,126.58623503",
+                "xy": {
+                  "x": 408350.0,
+                  "y": 1070126.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "whiteTee": {
+            "meters": 539,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.34812348469409,
+              "lon": 126.59122133871445,
+              "source": {
+                "url": "https://kko.to/Mkt3CtFf8g",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=409451&urlY=1069316",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%203%EB%B2%88,37.34812348,126.59122134",
+                "xy": {
+                  "x": 409451.0,
+                  "y": 1069316.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "whiteTee": {
+            "meters": 175,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.34798149986656,
+              "lon": 126.58976846590252,
+              "source": {
+                "url": "https://kko.to/RLJUxWDutZ",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=5&urlX=409129&urlY=1069278",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%204%EB%B2%88,37.34798150,126.58976847",
+                "xy": {
+                  "x": 409129.0,
+                  "y": 1069278.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteTee": {
+            "meters": 412,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.349486372512125,
+              "lon": 126.58619381683931,
+              "source": {
+                "url": "https://kko.to/YUnAN91lhv",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408339&urlY=1069699",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%205%EB%B2%88,37.34948637,126.58619382",
+                "xy": {
+                  "x": 408339.0,
+                  "y": 1069699.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "whiteTee": {
+            "meters": 384,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.348147503588635,
+              "lon": 126.58879244632124,
+              "source": {
+                "url": "https://kko.to/vvPIXU3uTV",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408913&urlY=1069325",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%206%EB%B2%88,37.34814750,126.58879245",
+                "xy": {
+                  "x": 408913.0,
+                  "y": 1069325.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteTee": {
+            "meters": 332,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35058395208213,
+              "lon": 126.58674759969824,
+              "source": {
+                "url": "https://kko.to/hUzigf4TSV",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408463&urlY=1070003",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%207%EB%B2%88,37.35058395,126.58674760",
+                "xy": {
+                  "x": 408463.0,
+                  "y": 1070003.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "whiteTee": {
+            "meters": 180,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35354971426147,
+              "lon": 126.58663201756893,
+              "source": {
+                "url": "https://kko.to/zeCmNrT01k",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=4&urlX=408441&urlY=1070826",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%208%EB%B2%88,37.35354971,126.58663202",
+                "xy": {
+                  "x": 408441.0,
+                  "y": 1070826.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "whiteTee": {
+            "meters": 414,
+            "source": "https://golfzoncounty.com/golfclub/courseDtl?courseSeq=54&golfclubSeq=68",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "lat": 37.35418668264498,
+              "lon": 126.59050221390565,
+              "source": {
+                "url": "https://kko.to/fE0acF8L1B",
+                "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_MAP&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%9D%B8%EC%B2%9C%EC%8B%A0%ED%95%AD%EB%8C%80%EB%A1%9C+1120&urlLevel=5&urlX=409299&urlY=1070999",
+                "verificationUrl": "https://map.kakao.com/link/map/%EA%B3%A8%ED%94%84%EC%A1%B4%EC%B9%B4%EC%9A%B4%ED%8B%B0%20%EC%86%A1%EB%8F%84%20WEST%209%EB%B2%88,37.35418668,126.59050221",
+                "xy": {
+                  "x": 409299.0,
+                  "y": 1070999.0,
+                  "crs": "Kakao WCONGNAMUL"
+                }
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "WCONGNAMUL / 2.5 -> EPSG:5181 -> WGS84",
+                "geometry": "user_selected_unverified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-12"
+              }
+            }
+          ],
+          "tees": []
+        }
+      ]
+    }
+  ]
+}

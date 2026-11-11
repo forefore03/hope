@@ -1,4 +1,4 @@
-import {coursePacks,packForClub} from './course-catalog.mjs?v=verthill-20261111';
+import {coursePacks,packForClub} from './course-catalog.mjs?v=songdo-20261112';
 import {outing} from './outing.mjs?v=parking-return-1';
 import {distance,measure,validatePack,greenFor} from './golf-core.mjs';
 const $=s=>document.querySelector(s);

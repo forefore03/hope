@@ -1,4 +1,4 @@
-import {coursePacks} from './course-catalog.mjs?v=verthill-20261111';
+import {coursePacks} from './course-catalog.mjs?v=songdo-20261112';
 import {validatePack} from './golf-core.mjs';
 import {previewValues} from './preview-core.mjs';
 const $=s=>document.querySelector(s);
