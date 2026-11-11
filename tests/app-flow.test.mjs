@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import {distance,interpolate,greenFor} from '../dist/golf-core.mjs';
 class Node {
  constructor(){this.hidden=true;this.disabled=false;this.value='';this.textContent='';this.dataset={};this.style={};this.children=[];this.parentElement={hidden:true};}
- replaceChildren(){this.children=[];} append(n){this.children.push(n);} showModal(){this.open=true;} close(){this.open=false;}
+ replaceChildren(){this.children=[];} append(...nodes){this.children.push(...nodes);} showModal(){this.open=true;} close(){this.open=false;}
 }
 const nodes=new Map(),get=s=>{if(!nodes.has(s))nodes.set(s,new Node());return nodes.get(s);};
 const photos=[new Node(),new Node(),new Node()],finishes=[get('#finish-now'),get('#tee-finish')],greens=[new Node(),new Node()];
@@ -15,8 +15,9 @@ const saved=new Map();globalThis.localStorage={getItem:k=>saved.get(k)??null,set
 globalThis.indexedDB={open(){throw Error('media unavailable in this controller test');}};
 const pack=JSON.parse(fs.readFileSync(new URL('../dist/data/flamingo.json',import.meta.url)));
 const jack=JSON.parse(fs.readFileSync(new URL('../dist/data/jack-nicklaus-korea.json',import.meta.url)));
+const verthill=JSON.parse(fs.readFileSync(new URL('../dist/data/verthill-yeongjong.json',import.meta.url)));
 let clubResults=[{name:'플라밍고 CC',...pack.location},{name:'다른 CC',lat:38,lon:127}];
-globalThis.fetch=async url=>({ok:true,json:async()=>String(url).includes('golf-courses')?clubResults:String(url).includes('jack-nicklaus')?jack:pack});
+globalThis.fetch=async url=>({ok:true,json:async()=>String(url).includes('golf-courses')?clubResults:String(url).includes('verthill-yeongjong')?verthill:String(url).includes('jack-nicklaus')?jack:pack});
 let gpsCalls=0,position=pack.courses[0].holes[0].tees[0];
 Object.defineProperty(globalThis,'navigator',{configurable:true,value:{geolocation:{getCurrentPosition(resolve){gpsCalls++;resolve({coords:{latitude:position.lat,longitude:position.lon,accuracy:5}});}}}});
 test('parking skip, GPS refresh, 12th-hole nudge and 18-hole finish without score entry',async()=>{
@@ -65,4 +66,19 @@ test('Jack Urban/Links selection, GPS refresh, course change and restoring share
  get('#course').onchange({target:{value:'links'}});g=greenFor(jack,'links',1);position={lat:g.lat+.003,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));assert.ok(get('#tee-course').textContent.includes('링크스 1번'));
  await import('../dist/app.mjs?restore-jack');for(let i=0;i<10;i++)await new Promise(setImmediate);assert.ok(get('#tee-course').textContent.includes('잭 니클라우스'));await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));
  get('#return-setup').onclick();await get('#locate').onclick();get('#nearby-list').children[1].onclick();assert.deepEqual(get('#start-course').children.map(x=>x.value),['links','park','dunes']);
+});
+
+test('Verthill 36-hole selection, live L/R updates, single-green target and next-course selection',async()=>{
+ clubResults=[{name:'베르힐CC 영종',...verthill.location},{name:'베르힐컨트리클럽',lat:35.0782592663044,lon:126.564189483075}];
+ position={...verthill.location};await get('#locate').onclick();assert.ok(get('#nearby-list').children[0].children[1].textContent.includes('36홀'));get('#nearby-list').children[0].onclick();
+ assert.deepEqual(get('#start-course').children.map(x=>x.value),['verthill','sky','ocean','lake']);
+ get('#start-course').value='verthill';get('#start-hole').value='3';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();
+ assert.ok(get('#tee-course').textContent.includes('베르힐 4번'));assert.deepEqual(greens[0].children.map(o=>o.textContent),['좌그린','우그린']);assert.equal(greens[0].parentElement.hidden,false);
+ let g=greenFor(verthill,'verthill',4,'L');position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));
+ greens[1].onchange({target:{value:'R'}});assert.equal(get('#remain').textContent,Math.round(distance(position,greenFor(verthill,'verthill',4,'R'))));
+ get('#return-setup').onclick();get('#start-course').value='sky';get('#start-hole').value='5';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();
+ assert.ok(get('#hole').textContent.includes('PAR 3'));assert.equal(greens[0].parentElement.hidden,true);g=greenFor(verthill,'sky',6);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();position={...g};await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,0);assert.equal(get('.fill').style.height,'100%');
+ get('#return-setup').onclick();get('#start-course').value='sky';get('#start-hole').value='8';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();g=greenFor(verthill,'sky',9,'L');position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();
+ get('#next-button').onclick();assert.equal(get('#next-course-label').hidden,false);assert.deepEqual(get('#next-course').children.map(o=>o.value),['verthill','sky','ocean','lake']);assert.equal(get('#next-course').value,'ocean');get('#next-confirm').onclick();assert.ok(get('#tee-course').textContent.includes('오션 1번'));assert.ok(get('#hole').textContent.includes('PAR 5'));
+ get('#return-setup').onclick();await get('#locate').onclick();get('#nearby-list').children[1].onclick();assert.equal(get('.choices').hidden,true);assert.equal(get('#begin span').textContent,'다른 골프장 고르자');
 });

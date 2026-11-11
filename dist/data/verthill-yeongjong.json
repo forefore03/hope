@@ -1,0 +1,2697 @@
+{
+  "schemaVersion": 1,
+  "id": "verthill-yeongjong",
+  "name": "베르힐CC 영종",
+  "aliases": [
+    "베르힐CC 영종",
+    "베르힐 CC 영종",
+    "영종 베르힐CC",
+    "영종베르힐CC",
+    "베르힐컨트리클럽 영종",
+    "베르힐컨트리클럽영종",
+    "베르힐CC영종",
+    "베르힐 영종"
+  ],
+  "revision": "2026-11-11.1",
+  "location": {
+    "lat": 37.5257622,
+    "lon": 126.565117
+  },
+  "personalUse": true,
+  "geometryStatus": "image_derived_user_accepted_field_unverified",
+  "approvedForUseAt": "2026-11-11",
+  "officialScorecard": {
+    "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+    "checkedAt": "2026-11-11",
+    "tee": "White",
+    "unit": "m"
+  },
+  "provenance": {
+    "candidateFile": "docs/candidates/verthill-greens-candidates.json",
+    "method": "manual_visual_interpretation_with_georeferenced_screen_pixels",
+    "imageryDate": null,
+    "fieldValidated": false,
+    "userReviewedHoles": [
+      {
+        "course": "verthill",
+        "holes": [
+          4,
+          5
+        ]
+      },
+      {
+        "course": "sky",
+        "holes": [
+          6
+        ]
+      },
+      {
+        "course": "lake",
+        "holes": [
+          6
+        ]
+      }
+    ]
+  },
+  "courses": [
+    {
+      "id": "verthill",
+      "name": "베르힐",
+      "nextCourse": "lake",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 384,
+              "R": 353
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52803796,
+              "lon": 126.55746974,
+              "whiteTee": {
+                "meters": 384,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://kko.to/h3Knxy9ldi",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402209&urlY=1119270&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402209,
+                  "y": 1119270,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_map_selected_not_field_verified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52805786,
+              "lon": 126.55797192,
+              "whiteTee": {
+                "meters": 353,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://kko.to/QqQ3QavwtW",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402320&urlY=1119275&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402320,
+                  "y": 1119275,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_map_selected_not_field_verified",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 488,
+              "R": 486
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52853127,
+              "lon": 126.55328661,
+              "whiteTee": {
+                "meters": 488,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=401285.25&urlY=1119411.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=401285.25&urlY=1119411.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 401285.25,
+                  "y": 1119411.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52841056,
+              "lon": 126.55353056,
+              "whiteTee": {
+                "meters": 486,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=401339&urlY=1119377.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=401339&urlY=1119377.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 401339,
+                  "y": 1119377.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 132,
+              "R": 145
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52849724,
+              "lon": 126.55501207,
+              "whiteTee": {
+                "meters": 132,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=401666.5&urlY=1119400&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=401666.5&urlY=1119400&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 401666.5,
+                  "y": 1119400,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52834042,
+              "lon": 126.55523926,
+              "whiteTee": {
+                "meters": 145,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=401716.5&urlY=1119356.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=401716.5&urlY=1119356.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 401716.5,
+                  "y": 1119356.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 348,
+              "R": 340
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52647435,
+              "lon": 126.55857067,
+              "whiteTee": {
+                "meters": 348,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402450.25&urlY=1118835&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402450.25&urlY=1118835&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402450.25,
+                  "y": 1118835,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_visual_review_confirmed_not_field_surveyed",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11",
+                "userReview": {
+                  "status": "confirmed",
+                  "date": "2026-11-11",
+                  "basis": "user_visual_review",
+                  "note": "사용자가 현재 그린 좌표 위치에 문제없음을 확인함."
+                }
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52633838,
+              "lon": 126.55835087,
+              "whiteTee": {
+                "meters": 340,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402401.5&urlY=1118797.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402401.5&urlY=1118797.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402401.5,
+                  "y": 1118797.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_visual_review_confirmed_not_field_surveyed",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11",
+                "userReview": {
+                  "status": "confirmed",
+                  "date": "2026-11-11",
+                  "basis": "user_visual_review",
+                  "note": "사용자가 현재 그린 좌표 위치에 문제없음을 확인함."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 306,
+              "R": 313
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52742282,
+              "lon": 126.55441886,
+              "whiteTee": {
+                "meters": 306,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=401534&urlY=1119102.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=401534&urlY=1119102.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 401534,
+                  "y": 1119102.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_05.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_visual_review_confirmed_not_field_surveyed",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11",
+                "userReview": {
+                  "status": "confirmed",
+                  "date": "2026-11-11",
+                  "basis": "user_visual_review",
+                  "note": "사용자가 현재 그린 좌표 위치에 문제없음을 확인함."
+                }
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52757246,
+              "lon": 126.55467817,
+              "whiteTee": {
+                "meters": 313,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=401591.5&urlY=1119143.75&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=401591.5&urlY=1119143.75&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 401591.5,
+                  "y": 1119143.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_05.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_visual_review_confirmed_not_field_surveyed",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11",
+                "userReview": {
+                  "status": "confirmed",
+                  "date": "2026-11-11",
+                  "basis": "user_visual_review",
+                  "note": "사용자가 현재 그린 좌표 위치에 문제없음을 확인함."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 496,
+              "R": 516
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.5258931,
+              "lon": 126.55974949,
+              "whiteTee": {
+                "meters": 496,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402710&urlY=1118672.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402710&urlY=1118672.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402710,
+                  "y": 1118672.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_06.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52553368,
+              "lon": 126.5600118,
+              "whiteTee": {
+                "meters": 516,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402767.5&urlY=1118572.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402767.5&urlY=1118572.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402767.5,
+                  "y": 1118572.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_06.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 369,
+              "R": 347
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52469213,
+              "lon": 126.55663427,
+              "whiteTee": {
+                "meters": 369,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402020&urlY=1118342.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402020&urlY=1118342.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402020,
+                  "y": 1118342.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52479685,
+              "lon": 126.55692778,
+              "whiteTee": {
+                "meters": 347,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402085&urlY=1118371.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402085&urlY=1118371.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402085,
+                  "y": 1118371.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 152,
+              "R": 170
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52337321,
+              "lon": 126.55811269,
+              "whiteTee": {
+                "meters": 152,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402345&urlY=1117975&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402345&urlY=1117975&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402345,
+                  "y": 1117975,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52310738,
+              "lon": 126.55810294,
+              "whiteTee": {
+                "meters": 170,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402342.5&urlY=1117901.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402342.5&urlY=1117901.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402342.5,
+                  "y": 1117901.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 412,
+              "R": 412
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52496234,
+              "lon": 126.56143489,
+              "whiteTee": {
+                "meters": 412,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403081.25&urlY=1118412.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403081.25&urlY=1118412.5&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403081.25,
+                  "y": 1118412.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52476008,
+              "lon": 126.56156051,
+              "whiteTee": {
+                "meters": 412,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403108.75&urlY=1118356.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403108.75&urlY=1118356.25&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403108.75,
+                  "y": 1118356.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/verthill/v_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sky",
+      "name": "스카이",
+      "nextCourse": "ocean",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 316,
+              "R": 351
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52942093,
+              "lon": 126.56595108,
+              "whiteTee": {
+                "meters": 316,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404085&urlY=1119645&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404085&urlY=1119645&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404085,
+                  "y": 1119645,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52954383,
+              "lon": 126.56629543,
+              "whiteTee": {
+                "meters": 351,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404161.25&urlY=1119678.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404161.25&urlY=1119678.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404161.25,
+                  "y": 1119678.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 129,
+              "R": 123
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.53062853,
+              "lon": 126.56725079,
+              "whiteTee": {
+                "meters": 129,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404373.75&urlY=1119978.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404373.75&urlY=1119978.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404373.75,
+                  "y": 1119978.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.53034937,
+              "lon": 126.567292,
+              "whiteTee": {
+                "meters": 123,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404382.5&urlY=1119901.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404382.5&urlY=1119901.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404382.5,
+                  "y": 1119901.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 474,
+              "R": 469
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52592851,
+              "lon": 126.56935384,
+              "whiteTee": {
+                "meters": 474,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404832.5&urlY=1118672.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404832.5&urlY=1118672.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404832.5,
+                  "y": 1118672.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52570296,
+              "lon": 126.56927029,
+              "whiteTee": {
+                "meters": 469,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404813.75&urlY=1118610&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404813.75&urlY=1118610&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404813.75,
+                  "y": 1118610,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 338,
+              "R": 319
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52525744,
+              "lon": 126.56570936,
+              "whiteTee": {
+                "meters": 338,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404026.25&urlY=1118490&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404026.25&urlY=1118490&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404026.25,
+                  "y": 1118490,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52551852,
+              "lon": 126.56565128,
+              "whiteTee": {
+                "meters": 319,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404013.75&urlY=1118562.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404013.75&urlY=1118562.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404013.75,
+                  "y": 1118562.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 381,
+              "R": 367
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52358308,
+              "lon": 126.56980851,
+              "whiteTee": {
+                "meters": 381,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404930&urlY=1118021.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404930&urlY=1118021.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404930,
+                  "y": 1118021.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_05.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52354117,
+              "lon": 126.56943544,
+              "whiteTee": {
+                "meters": 367,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404847.5&urlY=1118010&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404847.5&urlY=1118010&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404847.5,
+                  "y": 1118010,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_05.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "meters": 198,
+            "metersByGreen": {
+              "A": 198
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "label": "그린 중앙",
+              "lat": 37.52307542,
+              "lon": 126.57143475,
+              "whiteTee": {
+                "meters": 198,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "user_accepted_aiming_point",
+              "note": "원그린 · 사용자가 현재 위치를 적절한 거리 기준 및 권장 에이밍 지점으로 수용함.",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405288.75&urlY=1117878.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405288.75&urlY=1117878.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405288.75,
+                  "y": 1117878.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_06.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_visual_review_confirmed_not_field_surveyed",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11",
+                "userReview": {
+                  "status": "confirmed",
+                  "date": "2026-11-11",
+                  "basis": "user_visual_review",
+                  "note": "사용자가 원그린임을 확인. 현재 좌표를 적절한 거리 기준·권장 에이밍 지점으로 수용함."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 304,
+              "R": 293
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52469696,
+              "lon": 126.57012452,
+              "whiteTee": {
+                "meters": 304,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405001.25&urlY=1118330&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405001.25&urlY=1118330&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405001.25,
+                  "y": 1118330,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52482377,
+              "lon": 126.57031045,
+              "whiteTee": {
+                "meters": 293,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405042.5&urlY=1118365&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405042.5&urlY=1118365&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405042.5,
+                  "y": 1118365,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 519,
+              "R": 512
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52986483,
+              "lon": 126.56783785,
+              "whiteTee": {
+                "meters": 519,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404502.5&urlY=1119766.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404502.5&urlY=1119766.25&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404502.5,
+                  "y": 1119766.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.53001426,
+              "lon": 126.56804628,
+              "whiteTee": {
+                "meters": 512,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404548.75&urlY=1119807.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404548.75&urlY=1119807.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404548.75,
+                  "y": 1119807.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 340,
+              "R": 366
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52651233,
+              "lon": 126.56516472,
+              "whiteTee": {
+                "meters": 340,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403907.5&urlY=1118838.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403907.5&urlY=1118838.75&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403907.5,
+                  "y": 1118838.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52652457,
+              "lon": 126.56481961,
+              "whiteTee": {
+                "meters": 366,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403831.25&urlY=1118842.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403831.25&urlY=1118842.5&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403831.25,
+                  "y": 1118842.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/sky/s_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ocean",
+      "name": "오션",
+      "nextCourse": "sky",
+      "holes": [
+        {
+          "number": 1,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 479,
+              "R": 473
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52227738,
+              "lon": 126.57001397,
+              "whiteTee": {
+                "meters": 479,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404973.75&urlY=1117658.75&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404973.75&urlY=1117658.75&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404973.75,
+                  "y": 1117658.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52224455,
+              "lon": 126.56965782,
+              "whiteTee": {
+                "meters": 473,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=404895&urlY=1117650&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=404895&urlY=1117650&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 404895,
+                  "y": 1117650,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 296,
+              "R": 318
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52203479,
+              "lon": 126.57392939,
+              "whiteTee": {
+                "meters": 296,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405838.75&urlY=1117587.5&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405838.75&urlY=1117587.5&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405838.75,
+                  "y": 1117587.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52187359,
+              "lon": 126.57420179,
+              "whiteTee": {
+                "meters": 318,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405898.75&urlY=1117542.5&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405898.75&urlY=1117542.5&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405898.75,
+                  "y": 1117542.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 365,
+              "R": 352
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52510571,
+              "lon": 126.57103285,
+              "whiteTee": {
+                "meters": 365,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405202.5&urlY=1118442.5&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405202.5&urlY=1118442.5&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405202.5,
+                  "y": 1118442.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52524178,
+              "lon": 126.5712866,
+              "whiteTee": {
+                "meters": 352,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405258.75&urlY=1118480&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405258.75&urlY=1118480&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405258.75,
+                  "y": 1118480,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 129,
+              "R": 129
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52525447,
+              "lon": 126.57354907,
+              "whiteTee": {
+                "meters": 129,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405758.75&urlY=1118481.25&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405758.75&urlY=1118481.25&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405758.75,
+                  "y": 1118481.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52502913,
+              "lon": 126.57352207,
+              "whiteTee": {
+                "meters": 129,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405752.5&urlY=1118418.75&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405752.5&urlY=1118418.75&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405752.5,
+                  "y": 1118418.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "meters": 287,
+            "metersByGreen": {
+              "A": 287
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "label": "그린 중앙",
+              "lat": 37.52252653,
+              "lon": 126.57412455,
+              "whiteTee": {
+                "meters": 287,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405882.5&urlY=1117723.75&name=%EC%98%A4%EC%85%98+5%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405882.5&urlY=1117723.75&name=%EC%98%A4%EC%85%98+5%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405882.5,
+                  "y": 1117723.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_05.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 143,
+              "R": 155
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52233921,
+              "lon": 126.57091294,
+              "whiteTee": {
+                "meters": 143,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405172.5&urlY=1117675&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405172.5&urlY=1117675&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405172.5,
+                  "y": 1117675,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_06.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52256399,
+              "lon": 126.57078156,
+              "whiteTee": {
+                "meters": 155,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=405143.75&urlY=1117737.5&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=405143.75&urlY=1117737.5&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 405143.75,
+                  "y": 1117737.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_06.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 396,
+              "R": 381
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52187094,
+              "lon": 126.56482401,
+              "whiteTee": {
+                "meters": 396,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403826.25&urlY=1117551.25&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403826.25&urlY=1117551.25&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403826.25,
+                  "y": 1117551.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52204724,
+              "lon": 126.56498702,
+              "whiteTee": {
+                "meters": 381,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403862.5&urlY=1117600&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403862.5&urlY=1117600&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403862.5,
+                  "y": 1117600,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 396,
+              "R": 371
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52184183,
+              "lon": 126.5606104,
+              "whiteTee": {
+                "meters": 396,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402895&urlY=1117547.5&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402895&urlY=1117547.5&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402895,
+                  "y": 1117547.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52201846,
+              "lon": 126.56086389,
+              "whiteTee": {
+                "meters": 371,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402951.25&urlY=1117596.25&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402951.25&urlY=1117596.25&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402951.25,
+                  "y": 1117596.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 494,
+              "R": 485
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52467552,
+              "lon": 126.56305427,
+              "whiteTee": {
+                "meters": 494,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403438.75&urlY=1118331.25&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403438.75&urlY=1118331.25&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403438.75,
+                  "y": 1118331.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.5246,
+              "lon": 126.56334318,
+              "whiteTee": {
+                "meters": 485,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403502.5&urlY=1118310&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403502.5&urlY=1118310&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403502.5,
+                  "y": 1118310,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/ocean/o_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lake",
+      "name": "레이크",
+      "nextCourse": "verthill",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 288,
+              "R": 271
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52967769,
+              "lon": 126.56350025,
+              "whiteTee": {
+                "meters": 288,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403543.75&urlY=1119718.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403543.75&urlY=1119718.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403543.75,
+                  "y": 1119718.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52955712,
+              "lon": 126.56378945,
+              "whiteTee": {
+                "meters": 271,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403607.5&urlY=1119685&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403607.5&urlY=1119685&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403607.5,
+                  "y": 1119685,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_01.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 492,
+              "R": 475
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.53309756,
+              "lon": 126.56001828,
+              "whiteTee": {
+                "meters": 492,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402778.75&urlY=1120671.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402778.75&urlY=1120671.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402778.75,
+                  "y": 1120671.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.53316182,
+              "lon": 126.56034035,
+              "whiteTee": {
+                "meters": 475,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402850&urlY=1120688.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402850&urlY=1120688.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402850,
+                  "y": 1120688.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_02.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 384,
+              "R": 373
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.53050576,
+              "lon": 126.55963187,
+              "whiteTee": {
+                "meters": 384,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402690&urlY=1119952.5&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402690&urlY=1119952.5&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402690,
+                  "y": 1119952.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.53050916,
+              "lon": 126.5593377,
+              "whiteTee": {
+                "meters": 373,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402625&urlY=1119953.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402625&urlY=1119953.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402625,
+                  "y": 1119953.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_03.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 169,
+              "R": 160
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.53178965,
+              "lon": 126.55962433,
+              "whiteTee": {
+                "meters": 169,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402690&urlY=1120308.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402690&urlY=1120308.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402690,
+                  "y": 1120308.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.53179078,
+              "lon": 126.55992979,
+              "whiteTee": {
+                "meters": 160,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402757.5&urlY=1120308.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402757.5&urlY=1120308.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402757.5,
+                  "y": 1120308.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_04.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 5,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 489,
+              "R": 492
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.5282638,
+              "lon": 126.56125152,
+              "whiteTee": {
+                "meters": 489,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403045&urlY=1119328.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403045&urlY=1119328.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403045,
+                  "y": 1119328.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_05.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52813672,
+              "lon": 126.56099772,
+              "whiteTee": {
+                "meters": 492,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402988.75&urlY=1119293.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402988.75&urlY=1119293.75&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402988.75,
+                  "y": 1119293.75,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_05.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "meters": 301,
+            "metersByGreen": {
+              "A": 301
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "A",
+              "label": "그린 중앙",
+              "lat": 37.53023111,
+              "lon": 126.5584682,
+              "whiteTee": {
+                "meters": 301,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402432.5&urlY=1119877.5&name=%EB%A0%88%EC%9D%B4%ED%81%AC+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402432.5&urlY=1119877.5&name=%EB%A0%88%EC%9D%B4%ED%81%AC+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402432.5,
+                  "y": 1119877.5,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_06.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "user_visual_review_confirmed_not_field_surveyed",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11",
+                "userReview": {
+                  "status": "confirmed",
+                  "date": "2026-11-11",
+                  "basis": "user_visual_review",
+                  "note": "사용자가 현재 그린 좌표 위치에 문제없음을 확인함."
+                }
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 3,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 139,
+              "R": 137
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.53112112,
+              "lon": 126.55673764,
+              "whiteTee": {
+                "meters": 139,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402051.25&urlY=1120126.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402051.25&urlY=1120126.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402051.25,
+                  "y": 1120126.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.53132001,
+              "lon": 126.55691748,
+              "whiteTee": {
+                "meters": 137,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402091.25&urlY=1120181.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402091.25&urlY=1120181.25&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402091.25,
+                  "y": 1120181.25,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_07.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 349,
+              "R": 339
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52872974,
+              "lon": 126.55934817,
+              "whiteTee": {
+                "meters": 349,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402625&urlY=1119460&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402625&urlY=1119460&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402625,
+                  "y": 1119460,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52856638,
+              "lon": 126.55903236,
+              "whiteTee": {
+                "meters": 339,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=402555&urlY=1119415&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=402555&urlY=1119415&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 402555,
+                  "y": 1119415,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_08.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "whiteTee": {
+            "tee": "White",
+            "unit": "m",
+            "metersByGreen": {
+              "L": 324,
+              "R": 338
+            },
+            "source": "https://www.verthillccyj.com/course/courseInfo.asp",
+            "checkedAt": "2026-11-11"
+          },
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린",
+              "side": "left",
+              "lat": 37.52635971,
+              "lon": 126.56165862,
+              "whiteTee": {
+                "meters": 324,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403132.5&urlY=1118800&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403132.5&urlY=1118800&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403132.5,
+                  "y": 1118800,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린",
+              "side": "right",
+              "lat": 37.52608891,
+              "lon": 126.56152445,
+              "whiteTee": {
+                "meters": 338,
+                "source": "https://www.verthillccyj.com/course/courseInfo.asp"
+              },
+              "targetType": "green_center",
+              "source": {
+                "url": "https://map.kakao.com/?urlX=403102.5&urlY=1118725&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "resolvedUrl": "https://map.kakao.com/?urlX=403102.5&urlY=1118725&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+                "xy": {
+                  "x": 403102.5,
+                  "y": 1118725,
+                  "crs": "Kakao WCONGNAMUL"
+                },
+                "guideImage": "https://www.verthillccyj.com/images/course/lake/l_09.png"
+              },
+              "verification": {
+                "conversion": "checked",
+                "conversionMethod": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+                "geometry": "provisional_image_match",
+                "field": "not_checked",
+                "checkedAt": "2026-11-11"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

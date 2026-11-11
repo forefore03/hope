@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "verthill-yeongjong-green-candidates-2026-11-11",
-  "status": "candidate_not_loaded_by_app",
+  "status": "registered_in_app_field_unverified",
   "club": "베르힐CC 영종",
   "capturedAt": "2026-11-11",
   "summary": {
@@ -41,7 +41,7 @@
     "화이트티 거리는 공식 표의 표시값이며 실제 티 위치에서 계산한 GPS 직선거리와 일치한다고 보장하지 않는다.",
     "공식 요약 거리·개별 설명과 거리표에 차이가 있어 WHITE 행을 보존했고 TOTAL 값은 사용하지 않았다.",
     "지도·항공사진 서비스의 재사용 조건 검토는 미완료다. 이미지 원본은 이 저장소에 배포하지 않는다.",
-    "운영 앱 등록 및 사용자 거리 안내에는 아직 사용하지 않는다."
+    "사용자 승인 후 운영 앱에 잠정 좌표로 등록했다. 현장 검증은 미완료다."
   ],
   "courses": [
     {
@@ -2329,5 +2329,7 @@
       "screenshotRetainedInRepository": false
     }
   },
-  "reviewedAt": "2026-11-11"
+  "reviewedAt": "2026-11-11",
+  "runtimePath": "dist/data/verthill-yeongjong.json",
+  "registeredAt": "2026-11-11"
 }
