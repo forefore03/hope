@@ -1,0 +1,2306 @@
+{
+  "schemaVersion": 1,
+  "id": "verthill-yeongjong-green-candidates-2026-11-11",
+  "status": "candidate_not_loaded_by_app",
+  "club": "베르힐CC 영종",
+  "capturedAt": "2026-11-11",
+  "summary": {
+    "courses": 4,
+    "holes": 36,
+    "greenPoints": 69,
+    "userSelectedMapPins": 2,
+    "imageDerivedPoints": 67,
+    "priorityReviewHoles": 4,
+    "priorityReviewPoints": 6
+  },
+  "sources": {
+    "officialScorecard": "https://www.verthillccyj.com/course/courseInfo.asp",
+    "officialCourseGuide": "https://www.verthillccyj.com/course/courseGuide.asp",
+    "officialGuideData": "https://www.verthillccyj.com/js/course.js?v=1.0",
+    "aerial": "https://map.kakao.com/",
+    "aerialCaptureDate": null
+  },
+  "method": {
+    "type": "manual_visual_interpretation_with_georeferenced_screen_pixels",
+    "fullyAutomated": false,
+    "coordinateSystem": "WGS84 / EPSG:4326",
+    "pixelFormula": "x = referenceX + (greenPixelX - markerPixelX) * metersPerPixel * 2.5; y = referenceY + (markerPixelY - greenPixelY) * metersPerPixel * 2.5",
+    "conversion": "Kakao WCONGNAMUL x/y divided by 2.5 -> EPSG:5181 -> EPSG:4326; pyproj Transformer(always_xy=True)",
+    "leftRightRule": "티에서 그린을 바라보는 방향; 공식 도면 및 주변 지형과 대조한 잠정 구분",
+    "centerRule": "사진에 보이는 그린 윤곽의 시각적 중앙; 복잡한 폴리곤의 계산상 무게중심은 아님",
+    "accuracyMeters": null,
+    "fieldValidated": false,
+    "coordinateDecimalPlacesDoNotImplyAccuracy": true
+  },
+  "limitations": [
+    "좌표·홀 번호·좌우 구분은 현장 실측으로 검증되지 않은 후보다.",
+    "카카오 항공사진 촬영일은 확인하지 못했다. 현재 코스와 달라졌을 수 있다.",
+    "지도 좌표 변환의 수치 검증과 실제 지상 위치 정확도는 다르다.",
+    "화이트티 거리는 공식 표의 표시값이며 실제 티 위치에서 계산한 GPS 직선거리와 일치한다고 보장하지 않는다.",
+    "공식 요약 거리·개별 설명과 거리표에 차이가 있어 WHITE 행을 보존했고 TOTAL 값은 사용하지 않았다.",
+    "지도·항공사진 서비스의 재사용 조건 검토는 미완료다. 이미지 원본은 이 저장소에 배포하지 않는다.",
+    "운영 앱 등록 및 사용자 거리 안내에는 아직 사용하지 않는다."
+  ],
+  "courses": [
+    {
+      "id": "verthill",
+      "name": "베르힐",
+      "mapDisplayedNumberOffset": 9,
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "kakaoDisplayedNumber": 10,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_01.png",
+          "whiteTeeMeters": {
+            "R": 353,
+            "L": 384
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52803796,
+              "lon": 126.55746974,
+              "whiteTeeMeters": 384,
+              "sourceType": "user_selected_map_pin",
+              "verificationStatus": "user_map_selected_not_field_verified",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402209,
+                "y": 1119270
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402209&urlY=1.11927e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": "https://kko.to/h3Knxy9ldi"
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52805786,
+              "lon": 126.55797192,
+              "whiteTeeMeters": 353,
+              "sourceType": "user_selected_map_pin",
+              "verificationStatus": "user_map_selected_not_field_verified",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402320,
+                "y": 1119275
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402320&urlY=1.11928e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": "https://kko.to/QqQ3QavwtW"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 5,
+          "kakaoDisplayedNumber": 11,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_02.png",
+          "whiteTeeMeters": {
+            "R": 486,
+            "L": 488
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52853127,
+              "lon": 126.55328661,
+              "whiteTeeMeters": 488,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 401285.25,
+                "y": 1119411.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=401285&urlY=1.11941e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  138,
+                  255
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52841056,
+              "lon": 126.55353056,
+              "whiteTeeMeters": 486,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 401339.0,
+                "y": 1119377.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=401339&urlY=1.11938e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  181,
+                  282
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 3,
+          "kakaoDisplayedNumber": 12,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_03.png",
+          "whiteTeeMeters": {
+            "R": 145,
+            "L": 132
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52849724,
+              "lon": 126.55501207,
+              "whiteTeeMeters": 132,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 401666.5,
+                "y": 1119400.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=401666&urlY=1.1194e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  443,
+                  264
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52834042,
+              "lon": 126.55523926,
+              "whiteTeeMeters": 145,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 401716.5,
+                "y": 1119356.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=401716&urlY=1.11936e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  483,
+                  299
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "kakaoDisplayedNumber": 13,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_04.png",
+          "whiteTeeMeters": {
+            "R": 340,
+            "L": 348
+          },
+          "priorityReview": true,
+          "reviewReason": "밝은 표면으로 그린 경계가 흐려 중심 위치 재확인 권장",
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52647435,
+              "lon": 126.55857067,
+              "whiteTeeMeters": 348,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": true,
+              "kakaoMapXY": {
+                "x": 402450.25,
+                "y": 1118835.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402450&urlY=1.11884e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  1070,
+                  716
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52633838,
+              "lon": 126.55835087,
+              "whiteTeeMeters": 340,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": true,
+              "kakaoMapXY": {
+                "x": 402401.5,
+                "y": 1118797.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402402&urlY=1.1188e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  1031,
+                  746
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "kakaoDisplayedNumber": 14,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_05.png",
+          "whiteTeeMeters": {
+            "R": 313,
+            "L": 306
+          },
+          "priorityReview": true,
+          "reviewReason": "밝은 표면으로 그린 경계가 흐려 중심 위치 재확인 권장",
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52742282,
+              "lon": 126.55441886,
+              "whiteTeeMeters": 306,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": true,
+              "kakaoMapXY": {
+                "x": 401534.0,
+                "y": 1119102.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=401534&urlY=1.1191e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  337,
+                  502
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52757246,
+              "lon": 126.55467817,
+              "whiteTeeMeters": 313,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": true,
+              "kakaoMapXY": {
+                "x": 401591.5,
+                "y": 1119143.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=401592&urlY=1.11914e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "verthill-north-close2",
+                "greenPixel": [
+                  383,
+                  469
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 5,
+          "kakaoDisplayedNumber": 15,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_06.png",
+          "whiteTeeMeters": {
+            "R": 516,
+            "L": 496
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.5258931,
+              "lon": 126.55974949,
+              "whiteTeeMeters": 496,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402710.0,
+                "y": 1118672.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402710&urlY=1.11867e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  886,
+                  330
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52553368,
+              "lon": 126.5600118,
+              "whiteTeeMeters": 516,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402767.5,
+                "y": 1118572.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402768&urlY=1.11857e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  932,
+                  410
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "kakaoDisplayedNumber": 16,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_07.png",
+          "whiteTeeMeters": {
+            "R": 347,
+            "L": 369
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52469213,
+              "lon": 126.55663427,
+              "whiteTeeMeters": 369,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402020.0,
+                "y": 1118342.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402020&urlY=1.11834e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  334,
+                  594
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52479685,
+              "lon": 126.55692778,
+              "whiteTeeMeters": 347,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402085.0,
+                "y": 1118371.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402085&urlY=1.11837e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  386,
+                  571
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "kakaoDisplayedNumber": 17,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_08.png",
+          "whiteTeeMeters": {
+            "R": 170,
+            "L": 152
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52337321,
+              "lon": 126.55811269,
+              "whiteTeeMeters": 152,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402345.0,
+                "y": 1117975.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402345&urlY=1.11798e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close2",
+                "greenPixel": [
+                  594,
+                  768
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52310738,
+              "lon": 126.55810294,
+              "whiteTeeMeters": 170,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402342.5,
+                "y": 1117901.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402342&urlY=1.1179e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close2",
+                "greenPixel": [
+                  592,
+                  827
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "kakaoDisplayedNumber": 18,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/verthill/v_09.png",
+          "whiteTeeMeters": {
+            "R": 412,
+            "L": 412
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52496234,
+              "lon": 126.56143489,
+              "whiteTeeMeters": 412,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403081.25,
+                "y": 1118412.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403081&urlY=1.11841e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  1183,
+                  538
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52476008,
+              "lon": 126.56156051,
+              "whiteTeeMeters": 412,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403108.75,
+                "y": 1118356.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403109&urlY=1.11836e%2B06&name=%EB%B2%A0%EB%A5%B4%ED%9E%90+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  1205,
+                  583
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sky",
+      "name": "스카이",
+      "mapDisplayedNumberOffset": 0,
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "kakaoDisplayedNumber": 1,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_01.png",
+          "whiteTeeMeters": {
+            "R": 351,
+            "L": 316
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52942093,
+              "lon": 126.56595108,
+              "whiteTeeMeters": 316,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404085.0,
+                "y": 1119645.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404085&urlY=1.11964e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky8-close",
+                "greenPixel": [
+                  146,
+                  452
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52954383,
+              "lon": 126.56629543,
+              "whiteTeeMeters": 351,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404161.25,
+                "y": 1119678.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404161&urlY=1.11968e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky8-close",
+                "greenPixel": [
+                  207,
+                  425
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 3,
+          "kakaoDisplayedNumber": 2,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_02.png",
+          "whiteTeeMeters": {
+            "R": 123,
+            "L": 129
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.53062853,
+              "lon": 126.56725079,
+              "whiteTeeMeters": 129,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404373.75,
+                "y": 1119978.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404374&urlY=1.11998e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky8-close",
+                "greenPixel": [
+                  377,
+                  185
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.53034937,
+              "lon": 126.567292,
+              "whiteTeeMeters": 123,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404382.5,
+                "y": 1119901.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404382&urlY=1.1199e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky8-close",
+                "greenPixel": [
+                  384,
+                  247
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "kakaoDisplayedNumber": 3,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_03.png",
+          "whiteTeeMeters": {
+            "R": 469,
+            "L": 474
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52592851,
+              "lon": 126.56935384,
+              "whiteTeeMeters": 474,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404832.5,
+                "y": 1118672.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404832&urlY=1.11867e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  244,
+                  170
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52570296,
+              "lon": 126.56927029,
+              "whiteTeeMeters": 469,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404813.75,
+                "y": 1118610.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404814&urlY=1.11861e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  229,
+                  220
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "kakaoDisplayedNumber": 4,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_04.png",
+          "whiteTeeMeters": {
+            "R": 319,
+            "L": 338
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52525744,
+              "lon": 126.56570936,
+              "whiteTeeMeters": 338,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404026.25,
+                "y": 1118490.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404026&urlY=1.11849e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky49-close",
+                "greenPixel": [
+                  899,
+                  716
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52551852,
+              "lon": 126.56565128,
+              "whiteTeeMeters": 319,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404013.75,
+                "y": 1118562.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404014&urlY=1.11856e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky49-close",
+                "greenPixel": [
+                  889,
+                  658
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "kakaoDisplayedNumber": 5,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_05.png",
+          "whiteTeeMeters": {
+            "R": 367,
+            "L": 381
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52358308,
+              "lon": 126.56980851,
+              "whiteTeeMeters": 381,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404930.0,
+                "y": 1118021.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404930&urlY=1.11802e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  322,
+                  691
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52354117,
+              "lon": 126.56943544,
+              "whiteTeeMeters": 367,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404847.5,
+                "y": 1118010.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404848&urlY=1.11801e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  256,
+                  700
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 3,
+          "kakaoDisplayedNumber": 6,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_06.png",
+          "whiteTeeMeters": {
+            "single": 198
+          },
+          "priorityReview": true,
+          "reviewReason": "두 돌출부가 이어진 큰 단일 그린: 시각적 중앙 재확인 권장",
+          "greens": [
+            {
+              "id": "single",
+              "label": "단일 그린 후보",
+              "lat": 37.52307542,
+              "lon": 126.57143475,
+              "whiteTeeMeters": 198,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": true,
+              "kakaoMapXY": {
+                "x": 405288.75,
+                "y": 1117878.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405289&urlY=1.11788e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  609,
+                  805
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "kakaoDisplayedNumber": 7,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_07.png",
+          "whiteTeeMeters": {
+            "R": 293,
+            "L": 304
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52469696,
+              "lon": 126.57012452,
+              "whiteTeeMeters": 304,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405001.25,
+                "y": 1118330.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405001&urlY=1.11833e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  379,
+                  444
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52482377,
+              "lon": 126.57031045,
+              "whiteTeeMeters": 293,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405042.5,
+                "y": 1118365.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405042&urlY=1.11836e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  412,
+                  416
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 5,
+          "kakaoDisplayedNumber": 8,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_08.png",
+          "whiteTeeMeters": {
+            "R": 512,
+            "L": 519
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52986483,
+              "lon": 126.56783785,
+              "whiteTeeMeters": 519,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404502.5,
+                "y": 1119766.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404502&urlY=1.11977e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky8-close",
+                "greenPixel": [
+                  480,
+                  355
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.53001426,
+              "lon": 126.56804628,
+              "whiteTeeMeters": 512,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404548.75,
+                "y": 1119807.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404549&urlY=1.11981e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky8-close",
+                "greenPixel": [
+                  517,
+                  322
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "kakaoDisplayedNumber": 9,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/sky/s_09.png",
+          "whiteTeeMeters": {
+            "R": 366,
+            "L": 340
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52651233,
+              "lon": 126.56516472,
+              "whiteTeeMeters": 340,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403907.5,
+                "y": 1118838.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403908&urlY=1.11884e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky49-close",
+                "greenPixel": [
+                  804,
+                  437
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52652457,
+              "lon": 126.56481961,
+              "whiteTeeMeters": 366,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403831.25,
+                "y": 1118842.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403831&urlY=1.11884e%2B06&name=%EC%8A%A4%EC%B9%B4%EC%9D%B4+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "sky49-close",
+                "greenPixel": [
+                  743,
+                  434
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ocean",
+      "name": "오션",
+      "mapDisplayedNumberOffset": 9,
+      "holes": [
+        {
+          "number": 1,
+          "par": 5,
+          "kakaoDisplayedNumber": 10,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_01.png",
+          "whiteTeeMeters": {
+            "R": 473,
+            "L": 479
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52227738,
+              "lon": 126.57001397,
+              "whiteTeeMeters": 479,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404973.75,
+                "y": 1117658.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404974&urlY=1.11766e%2B06&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-close",
+                "greenPixel": [
+                  357,
+                  581
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52224455,
+              "lon": 126.56965782,
+              "whiteTeeMeters": 473,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 404895.0,
+                "y": 1117650.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=404895&urlY=1.11765e%2B06&name=%EC%98%A4%EC%85%98+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-close",
+                "greenPixel": [
+                  294,
+                  588
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "kakaoDisplayedNumber": 11,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_02.png",
+          "whiteTeeMeters": {
+            "R": 318,
+            "L": 296
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52203479,
+              "lon": 126.57392939,
+              "whiteTeeMeters": 296,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405838.75,
+                "y": 1117587.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405839&urlY=1.11759e%2B06&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-close",
+                "greenPixel": [
+                  1049,
+                  638
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52187359,
+              "lon": 126.57420179,
+              "whiteTeeMeters": 318,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405898.75,
+                "y": 1117542.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405899&urlY=1.11754e%2B06&name=%EC%98%A4%EC%85%98+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-close",
+                "greenPixel": [
+                  1097,
+                  674
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "kakaoDisplayedNumber": 12,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_03.png",
+          "whiteTeeMeters": {
+            "R": 352,
+            "L": 365
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52510571,
+              "lon": 126.57103285,
+              "whiteTeeMeters": 365,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405202.5,
+                "y": 1118442.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405202&urlY=1.11844e%2B06&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  540,
+                  354
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52524178,
+              "lon": 126.5712866,
+              "whiteTeeMeters": 352,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405258.75,
+                "y": 1118480.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405259&urlY=1.11848e%2B06&name=%EC%98%A4%EC%85%98+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  585,
+                  324
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "kakaoDisplayedNumber": 13,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_04.png",
+          "whiteTeeMeters": {
+            "R": 129,
+            "L": 129
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52525447,
+              "lon": 126.57354907,
+              "whiteTeeMeters": 129,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405758.75,
+                "y": 1118481.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405759&urlY=1.11848e%2B06&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  985,
+                  323
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52502913,
+              "lon": 126.57352207,
+              "whiteTeeMeters": 129,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405752.5,
+                "y": 1118418.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405752&urlY=1.11842e%2B06&name=%EC%98%A4%EC%85%98+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-north-close",
+                "greenPixel": [
+                  980,
+                  373
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 4,
+          "kakaoDisplayedNumber": 14,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_05.png",
+          "whiteTeeMeters": {
+            "single": 287
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "single",
+              "label": "단일 그린 후보",
+              "lat": 37.52252653,
+              "lon": 126.57412455,
+              "whiteTeeMeters": 287,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405882.5,
+                "y": 1117723.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405882&urlY=1.11772e%2B06&name=%EC%98%A4%EC%85%98+5%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-close",
+                "greenPixel": [
+                  1084,
+                  529
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 3,
+          "kakaoDisplayedNumber": 15,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_06.png",
+          "whiteTeeMeters": {
+            "R": 155,
+            "L": 143
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52233921,
+              "lon": 126.57091294,
+              "whiteTeeMeters": 143,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405172.5,
+                "y": 1117675.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405172&urlY=1.11768e%2B06&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-close",
+                "greenPixel": [
+                  516,
+                  568
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52256399,
+              "lon": 126.57078156,
+              "whiteTeeMeters": 155,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 405143.75,
+                "y": 1117737.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=405144&urlY=1.11774e%2B06&name=%EC%98%A4%EC%85%98+6%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-east-close",
+                "greenPixel": [
+                  493,
+                  518
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 4,
+          "kakaoDisplayedNumber": 16,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_07.png",
+          "whiteTeeMeters": {
+            "R": 381,
+            "L": 396
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52187094,
+              "lon": 126.56482401,
+              "whiteTeeMeters": 396,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403826.25,
+                "y": 1117551.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403826&urlY=1.11755e%2B06&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-west-close",
+                "greenPixel": [
+                  1219,
+                  767
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52204724,
+              "lon": 126.56498702,
+              "whiteTeeMeters": 381,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403862.5,
+                "y": 1117600.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403862&urlY=1.1176e%2B06&name=%EC%98%A4%EC%85%98+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-west-close",
+                "greenPixel": [
+                  1248,
+                  728
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 4,
+          "kakaoDisplayedNumber": 17,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_08.png",
+          "whiteTeeMeters": {
+            "R": 371,
+            "L": 396
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52184183,
+              "lon": 126.5606104,
+              "whiteTeeMeters": 396,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402895.0,
+                "y": 1117547.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402895&urlY=1.11755e%2B06&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-west-close",
+                "greenPixel": [
+                  474,
+                  770
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52201846,
+              "lon": 126.56086389,
+              "whiteTeeMeters": 371,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402951.25,
+                "y": 1117596.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402951&urlY=1.1176e%2B06&name=%EC%98%A4%EC%85%98+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-west-close",
+                "greenPixel": [
+                  519,
+                  731
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 5,
+          "kakaoDisplayedNumber": 18,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/ocean/o_09.png",
+          "whiteTeeMeters": {
+            "R": 485,
+            "L": 494
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52467552,
+              "lon": 126.56305427,
+              "whiteTeeMeters": 494,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403438.75,
+                "y": 1118331.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403439&urlY=1.11833e%2B06&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-west-close",
+                "greenPixel": [
+                  909,
+                  143
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.5246,
+              "lon": 126.56334318,
+              "whiteTeeMeters": 485,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403502.5,
+                "y": 1118310.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403502&urlY=1.11831e%2B06&name=%EC%98%A4%EC%85%98+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "ocean-west-close",
+                "greenPixel": [
+                  960,
+                  160
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lake",
+      "name": "레이크",
+      "mapDisplayedNumberOffset": 0,
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "kakaoDisplayedNumber": 1,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_01.png",
+          "whiteTeeMeters": {
+            "R": 271,
+            "L": 288
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52967769,
+              "lon": 126.56350025,
+              "whiteTeeMeters": 288,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403543.75,
+                "y": 1119718.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403544&urlY=1.11972e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-south-close",
+                "greenPixel": [
+                  993,
+                  453
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52955712,
+              "lon": 126.56378945,
+              "whiteTeeMeters": 271,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403607.5,
+                "y": 1119685.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403608&urlY=1.11968e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+1%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-south-close",
+                "greenPixel": [
+                  1044,
+                  480
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "par": 5,
+          "kakaoDisplayedNumber": 2,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_02.png",
+          "whiteTeeMeters": {
+            "R": 475,
+            "L": 492
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.53309756,
+              "lon": 126.56001828,
+              "whiteTeeMeters": 492,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402778.75,
+                "y": 1120671.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402779&urlY=1.12067e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  701,
+                  171
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.53316182,
+              "lon": 126.56034035,
+              "whiteTeeMeters": 475,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402850.0,
+                "y": 1120688.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402850&urlY=1.12069e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+2%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  758,
+                  157
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "par": 4,
+          "kakaoDisplayedNumber": 3,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_03.png",
+          "whiteTeeMeters": {
+            "R": 373,
+            "L": 384
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.53050576,
+              "lon": 126.55963187,
+              "whiteTeeMeters": 384,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402690.0,
+                "y": 1119952.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402690&urlY=1.11995e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  630,
+                  746
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.53050916,
+              "lon": 126.5593377,
+              "whiteTeeMeters": 373,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402625.0,
+                "y": 1119953.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402625&urlY=1.11995e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+3%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  578,
+                  745
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "par": 3,
+          "kakaoDisplayedNumber": 4,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_04.png",
+          "whiteTeeMeters": {
+            "R": 160,
+            "L": 169
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.53178965,
+              "lon": 126.55962433,
+              "whiteTeeMeters": 169,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402690.0,
+                "y": 1120308.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402690&urlY=1.12031e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  630,
+                  461
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.53179078,
+              "lon": 126.55992979,
+              "whiteTeeMeters": 160,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402757.5,
+                "y": 1120308.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402758&urlY=1.12031e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+4%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  684,
+                  461
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "par": 5,
+          "kakaoDisplayedNumber": 5,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_05.png",
+          "whiteTeeMeters": {
+            "R": 492,
+            "L": 489
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.5282638,
+              "lon": 126.56125152,
+              "whiteTeeMeters": 489,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403045.0,
+                "y": 1119328.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403045&urlY=1.11933e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-south-close",
+                "greenPixel": [
+                  594,
+                  765
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52813672,
+              "lon": 126.56099772,
+              "whiteTeeMeters": 492,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402988.75,
+                "y": 1119293.75
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402989&urlY=1.11929e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+5%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-south-close",
+                "greenPixel": [
+                  549,
+                  793
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "kakaoDisplayedNumber": 6,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_06.png",
+          "whiteTeeMeters": {
+            "single": 301
+          },
+          "priorityReview": true,
+          "reviewReason": "물가의 굴곡진 단일 그린: 시각적 중앙 재확인 권장",
+          "greens": [
+            {
+              "id": "single",
+              "label": "단일 그린 후보",
+              "lat": 37.53023111,
+              "lon": 126.5584682,
+              "whiteTeeMeters": 301,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": true,
+              "kakaoMapXY": {
+                "x": 402432.5,
+                "y": 1119877.5
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402432&urlY=1.11988e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+6%EB%B2%88+%EB%8B%A8%EC%9D%BC+%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-south-close",
+                "greenPixel": [
+                  104,
+                  326
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "par": 3,
+          "kakaoDisplayedNumber": 7,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_07.png",
+          "whiteTeeMeters": {
+            "R": 137,
+            "L": 139
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.53112112,
+              "lon": 126.55673764,
+              "whiteTeeMeters": 139,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402051.25,
+                "y": 1120126.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402051&urlY=1.12013e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  119,
+                  607
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.53132001,
+              "lon": 126.55691748,
+              "whiteTeeMeters": 137,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402091.25,
+                "y": 1120181.25
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402091&urlY=1.12018e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+7%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-north-close",
+                "greenPixel": [
+                  151,
+                  563
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "par": 4,
+          "kakaoDisplayedNumber": 8,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_08.png",
+          "whiteTeeMeters": {
+            "R": 339,
+            "L": 349
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52872974,
+              "lon": 126.55934817,
+              "whiteTeeMeters": 349,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402625.0,
+                "y": 1119460.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402625&urlY=1.11946e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-south-close",
+                "greenPixel": [
+                  258,
+                  660
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52856638,
+              "lon": 126.55903236,
+              "whiteTeeMeters": 339,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 402555.0,
+                "y": 1119415.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=402555&urlY=1.11942e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+8%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "lake-south-close",
+                "greenPixel": [
+                  202,
+                  696
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "kakaoDisplayedNumber": 9,
+          "mappingStatus": "provisional_visual_match",
+          "guideImageSource": "https://www.verthillccyj.com/images/course/lake/l_09.png",
+          "whiteTeeMeters": {
+            "R": 338,
+            "L": 324
+          },
+          "priorityReview": false,
+          "reviewReason": null,
+          "greens": [
+            {
+              "id": "L",
+              "label": "좌그린 후보",
+              "lat": 37.52635971,
+              "lon": 126.56165862,
+              "whiteTeeMeters": 324,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403132.5,
+                "y": 1118800.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403132&urlY=1.1188e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%A2%8C%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  1224,
+                  228
+                ]
+              }
+            },
+            {
+              "id": "R",
+              "label": "우그린 후보",
+              "lat": 37.52608891,
+              "lon": 126.56152445,
+              "whiteTeeMeters": 338,
+              "sourceType": "aerial_visual_center_candidate",
+              "verificationStatus": "provisional_image_match",
+              "priorityReview": false,
+              "kakaoMapXY": {
+                "x": 403102.5,
+                "y": 1118725.0
+              },
+              "reviewUrl": "https://map.kakao.com/?urlX=403102&urlY=1.11872e%2B06&name=%EB%A0%88%EC%9D%B4%ED%81%AC+9%EB%B2%88+%EC%9A%B0%EA%B7%B8%EB%A6%B0+%ED%9B%84%EB%B3%B4",
+              "originalSharedUrl": null,
+              "screenEvidence": {
+                "frame": "west-south-close",
+                "greenPixel": [
+                  1200,
+                  288
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "auditFrames": {
+    "verthill-north-close2": {
+      "referenceMapXY": [
+        402209,
+        1119270
+      ],
+      "markerPixel": [
+        877,
+        368
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "west-south-close": {
+      "referenceMapXY": [
+        402700,
+        1118500
+      ],
+      "markerPixel": [
+        878,
+        468
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "west-south-close2": {
+      "referenceMapXY": [
+        402700,
+        1118500
+      ],
+      "markerPixel": [
+        878,
+        348
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "sky8-close": {
+      "referenceMapXY": [
+        405000,
+        1119500
+      ],
+      "markerPixel": [
+        878,
+        568
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "ocean-east-north-close": {
+      "referenceMapXY": [
+        405000,
+        1117800
+      ],
+      "markerPixel": [
+        378,
+        868
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "sky49-close": {
+      "referenceMapXY": [
+        404000,
+        1118800
+      ],
+      "markerPixel": [
+        878,
+        468
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "ocean-east-close": {
+      "referenceMapXY": [
+        405000,
+        1117800
+      ],
+      "markerPixel": [
+        378,
+        468
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "ocean-west-close": {
+      "referenceMapXY": [
+        403400,
+        1117800
+      ],
+      "markerPixel": [
+        878,
+        568
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "lake-south-close": {
+      "referenceMapXY": [
+        403400,
+        1119700
+      ],
+      "markerPixel": [
+        878,
+        468
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    },
+    "lake-north-close": {
+      "referenceMapXY": [
+        403000,
+        1120300
+      ],
+      "markerPixel": [
+        878,
+        468
+      ],
+      "metersPerPixel": 0.5,
+      "screenshotRetainedInRepository": false
+    }
+  }
+}
