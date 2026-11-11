@@ -1,0 +1,52 @@
+{
+  "id": "jack-nicklaus-korea",
+  "club": "잭 니클라우스 골프클럽 코리아",
+  "location": {
+    "lat": 37.37946477171926,
+    "lon": 126.62499133649312
+  },
+  "referenceSource": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981",
+  "referenceRole": "Rejected address/parcel location used ONLY as club reference, never as a green coordinate.",
+  "checkedAt": "2026-11-11",
+  "requestedHoleNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "unobservedHoles": {
+    "1": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9.",
+    "2": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9.",
+    "3": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9.",
+    "4": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9.",
+    "5": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9.",
+    "6": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9.",
+    "7": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9.",
+    "8": "Not individually inspected; pilot halted after shared address lookup path failed original-link replay for hole 9."
+  },
+  "courses": [
+    {
+      "id": "urban",
+      "name": "어반 코스",
+      "holes": [
+        {
+          "number": 9,
+          "par": null,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": false,
+          "sourceMethod": "address_lookup",
+          "sourceUrl": "https://kko.to/00sUw3BbZV",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981",
+          "pinVerified": false,
+          "reason": "Aerial UI showed number 9 centered on one green at 30m scale. Urban label visible nearby but official numbering was not independently verified. Right-click offered 여기 주소 보기, no exact-point share action. Address popup initially appeared at clicked 9; map sharing copied original short URL. Reopening ORIGINAL URL displayed street-address result and pink parcel boundary; blue address pin snapped to western parcel edge, away from number 9. Reject as green evidence. No WGS84 green coordinate accepted."
+        }
+      ]
+    }
+  ]
+}

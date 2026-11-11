@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "method": "GreenPin A",
+  "club": "잭 니클라우스 골프클럽 코리아",
+  "id": "jack-nicklaus-korea",
+  "location": {
+    "lat": 37.37946477171926,
+    "lon": 126.62499133649312
+  },
+  "checkedAt": "2026-11-11",
+  "status": "review_only_not_registered",
+  "courses": [
+    {
+      "id": "urban",
+      "name": "어반 코스",
+      "holes": [
+        {
+          "number": 1,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 2,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 3,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 4,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 5,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 6,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 7,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 8,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "missing",
+          "issues": [
+            "not_observed"
+          ],
+          "observation": null
+        },
+        {
+          "number": 9,
+          "lat": null,
+          "lon": null,
+          "reviewUrl": null,
+          "status": "needs_review",
+          "issues": [
+            "course_or_hole_unconfirmed",
+            "exact_point_url_unconfirmed",
+            "original_url_replay_unconfirmed"
+          ],
+          "observation": {
+            "number": 9,
+            "par": null,
+            "greenType": "single",
+            "numberAtCenter": true,
+            "identityVerified": false,
+            "sourceMethod": "address_lookup",
+            "sourceUrl": "https://kko.to/00sUw3BbZV",
+            "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981",
+            "pinVerified": false,
+            "reason": "Aerial UI showed number 9 centered on one green at 30m scale. Urban label visible nearby but official numbering was not independently verified. Right-click offered 여기 주소 보기, no exact-point share action. Address popup initially appeared at clicked 9; map sharing copied original short URL. Reopening ORIGINAL URL displayed street-address result and pink parcel boundary; blue address pin snapped to western parcel edge, away from number 9. Reject as green evidence. No WGS84 green coordinate accepted."
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "ready_for_user_review": 0,
+    "excluded": 0,
+    "needs_review": 1,
+    "missing": 8,
+    "nineHolePilotPassed": false
+  }
+}

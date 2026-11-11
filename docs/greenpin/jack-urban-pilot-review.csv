@@ -1,0 +1,10 @@
+﻿골프장,코스,홀,위도,경도,원본 URL,재현 URL,검증 상태,누락·예외,관찰
+잭 니클라우스 골프클럽 코리아,어반 코스,1,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,2,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,3,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,4,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,5,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,6,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,7,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,8,,,,,missing,not_observed,
+잭 니클라우스 골프클럽 코리아,어반 코스,9,,,https://kko.to/00sUw3BbZV,https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981,needs_review,course_or_hole_unconfirmed; exact_point_url_unconfirmed; original_url_replay_unconfirmed,"Aerial UI showed number 9 centered on one green at 30m scale. Urban label visible nearby but official numbering was not independently verified. Right-click offered 여기 주소 보기, no exact-point share action. Address popup initially appeared at clicked 9; map sharing copied original short URL. Reopening ORIGINAL URL displayed street-address result and pink parcel boundary; blue address pin snapped to western parcel edge, away from number 9. Reject as green evidence. No WGS84 green coordinate accepted."
