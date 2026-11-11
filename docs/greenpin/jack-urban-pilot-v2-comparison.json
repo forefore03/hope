@@ -1,0 +1,66 @@
+{
+  "performedAfterCollection": true,
+  "role": "independent cross-check; not a source for new coordinate collection",
+  "referencePack": "dist/data/jack-nicklaus-korea.json",
+  "referenceRevision": "2026-11-11.1",
+  "minimumMeters": 0.566,
+  "maximumMeters": 4.562,
+  "comparisons": [
+    {
+      "hole": 1,
+      "meters": 2.043,
+      "priorSource": "https://kko.to/idzjyP3gnT",
+      "newSource": "https://kko.to/kTUG0mJ9XF"
+    },
+    {
+      "hole": 2,
+      "meters": 2.035,
+      "priorSource": "https://kko.to/SXvC-UwAXW",
+      "newSource": "https://kko.to/OYoLzAUU29"
+    },
+    {
+      "hole": 3,
+      "meters": 1.646,
+      "priorSource": "https://kko.to/RY6OFbj_Od",
+      "newSource": "https://kko.to/n1bX9kR2gX"
+    },
+    {
+      "hole": 4,
+      "meters": 0.798,
+      "priorSource": "https://kko.to/74nLy3v2nH",
+      "newSource": "https://kko.to/xVC_NLU0iE"
+    },
+    {
+      "hole": 5,
+      "meters": 1.646,
+      "priorSource": "https://kko.to/Iy0jgUrScz",
+      "newSource": "https://kko.to/h4UzU41Ktf"
+    },
+    {
+      "hole": 6,
+      "meters": 4.562,
+      "priorSource": "https://kko.to/VCQMfsgfMv",
+      "newSource": "https://kko.to/WLRKVbju_E"
+    },
+    {
+      "hole": 7,
+      "meters": 0.893,
+      "priorSource": "https://kko.to/EDFX5-lPUF",
+      "newSource": "https://kko.to/G3pjycJb37"
+    },
+    {
+      "hole": 8,
+      "meters": 3.614,
+      "priorSource": "https://kko.to/HZv5z4CKYx",
+      "newSource": "https://kko.to/8r7L4kQR5b"
+    },
+    {
+      "hole": 9,
+      "meters": 0.566,
+      "priorSource": "https://kko.to/x-p54o1zPg",
+      "newSource": "https://kko.to/00sUw3BbZV"
+    }
+  ],
+  "fieldVerified": false,
+  "runtimeChanged": false
+}

@@ -1,0 +1,222 @@
+{
+  "id": "jack-nicklaus-korea",
+  "club": "잭니클라우스GC코리아",
+  "checkedAt": "2026-11-11",
+  "field": "not_checked",
+  "courses": [
+    {
+      "id": "urban",
+      "name": "Urban",
+      "holes": [
+        {
+          "number": 1,
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/kTUG0mJ9XF",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416357&urlY=1077210",
+          "verificationLabel": "Urban 1번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%201%EB%B2%88,37.37667732,126.62225488",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=416357.0&urlY=1077210.0&name=Urban+1%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual map number 1 right-clicked; location address UI and copied share link used. Exact generated WGS84 pin opened and its tip overlaps number at apparent center of a single green. Course/PAR independently unverified.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 2,
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/OYoLzAUU29",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417150&urlY=1076580",
+          "verificationLabel": "Urban 2번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%202%EB%B2%88,37.37441817,126.62584741",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=417150.0&urlY=1076579.0&name=Urban+2%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual map number 2 right-clicked; location address UI and copied share link used. Exact generated WGS84 pin opened and its tip overlaps number at apparent center of a single green. Course/PAR independently unverified.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 3,
+          "par": 5,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/n1bX9kR2gX",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=418122&urlY=1077690",
+          "verificationLabel": "Urban 3번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%203%EB%B2%88,37.37843244,126.63021726",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=418122.0&urlY=1077690.0&name=Urban+3%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual aerial map number 3 right-clicked, address lookup completed before URL copy; copied short link opened. Exact generated WGS84 link opened and blue pin tip overlaps number at apparent center of one green. Visible Urban course region and coherent map numbering distinguish holes1–9 from Links10–18.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 4,
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/xVC_NLU0iE",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=417385&urlY=1078270",
+          "verificationLabel": "Urban 4번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%204%EB%B2%88,37.38051232,126.62687848",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=417385.0&urlY=1078270.0&name=Urban+4%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual aerial map number 4 right-clicked, address lookup completed before URL copy; copied short link opened. Exact generated WGS84 link opened and blue pin tip overlaps number at apparent center of one green. Visible Urban course region and coherent map numbering distinguish holes1–9 from Links10–18.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 5,
+          "par": 3,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/h4UzU41Ktf",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417467&urlY=1078610",
+          "verificationLabel": "Urban 5번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%205%EB%B2%88,37.38173885,126.62724275",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=417467.0&urlY=1078610.0&name=Urban+5%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual aerial map number 5 right-clicked, address lookup completed before URL copy; copied short link opened. Exact generated WGS84 link opened and blue pin tip overlaps number at apparent center of one green. Visible Urban course region and coherent map numbering distinguish holes1–9 from Links10–18.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 6,
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/WLRKVbju_E",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=418325&urlY=1077860",
+          "verificationLabel": "Urban 6번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%206%EB%B2%88,37.37904799,126.63113104",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=418326.0&urlY=1077860.0&name=Urban+6%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual aerial map number 6 right-clicked, address lookup completed before URL copy; copied short link opened. Exact generated WGS84 link opened and blue pin tip overlaps number at apparent center of one green. Visible Urban course region and coherent map numbering distinguish holes1–9 from Links10–18.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 7,
+          "par": 5,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/G3pjycJb37",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=417300&urlY=1076830",
+          "verificationLabel": "Urban 7번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%207%EB%B2%88,37.37532132,126.62652033",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=417300.0&urlY=1076830.0&name=Urban+7%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual map number 7 clicked and share copied. Exact generated WGS84 pin overlaps number on single green; 8 also inspected at20m confirming center within actual putting green rather than surrounding fairway.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 8,
+          "par": 3,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/8r7L4kQR5b",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=5&urlX=416687&urlY=1077090",
+          "verificationLabel": "Urban 8번",
+          "verificationUrl": "https://map.kakao.com/link/map/Urban%208%EB%B2%88,37.37624959,126.62374735",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=416687.0&urlY=1077090.0&name=Urban+8%EB%B2%88",
+          "coordinatePinVerified": true,
+          "reason": "Actual map number 8 clicked and share copied. Exact generated WGS84 pin overlaps number on single green; 8 also inspected at20m confirming center within actual putting green rather than surrounding fairway.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        },
+        {
+          "number": 9,
+          "par": 4,
+          "greenType": "single",
+          "numberAtCenter": true,
+          "identityVerified": true,
+          "sourceMethod": "copied_map_url",
+          "sourceUrl": "https://kko.to/00sUw3BbZV",
+          "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981",
+          "verificationLabel": "좌표 검증점",
+          "verificationUrl": "https://map.kakao.com/link/map/%EC%A2%8C%ED%91%9C%20%EA%B2%80%EC%A6%9D%EC%A0%90,37.37946477,126.62499134",
+          "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=416966.0&urlY=1077981.0&name=%EC%A2%8C%ED%91%9C+%EA%B2%80%EC%A6%9D%EC%A0%90",
+          "coordinatePinVerified": true,
+          "reason": "Original user copied source link reopened; exact WGS84 generated verification pin overlaps visible9 at50/30m and apparent single-green center at20m. Identity follows completed Urban region/numbering inspection; initial one-point report intentionally left course identity unresolved.",
+          "parSource": {
+            "url": "https://www.jacknicklausgolfclubkorea.com/course/tip",
+            "evidenceType": "existing_official_scorecard_snapshot",
+            "checkedAt": "2026-11-11",
+            "freshSiteVerified": false
+          }
+        }
+      ]
+    }
+  ],
+  "collectionExceptions": [
+    {
+      "hole": 8,
+      "rejectedSourceUrl": "https://kko.to/icED75pbF8",
+      "resolvedUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&urlLevel=3&urlX=416356&urlY=1077210",
+      "reason": "URL copy clicked before address lookup completed; link preserved previous map center. Discarded and one UI retry yielded new actual clicked XY source."
+    }
+  ],
+  "location": {
+    "lat": 37.37946477171926,
+    "lon": 126.62499133649312
+  },
+  "locationBasis": "Collected hole9 coordinate used only as proximity reference, not source for any other hole.",
+  "identityEvidence": {
+    "map": "Visible Urban코스 region and complete map numbers1–9 on southern/eastern course, separated from Links코스10–18. Each actual numeral was visually read and its converted coordinate pin checked.",
+    "operatorSource": "https://www.poscowide.com/biz/golf_leisure_7.do",
+    "operatorEvidence": "Parent verified operator names Urban and Links and One Green System.",
+    "limit": "Map imagery/labels verify apparent green geometry; not field survey or competition routing."
+  }
+}

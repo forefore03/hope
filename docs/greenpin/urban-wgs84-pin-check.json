@@ -1,0 +1,36 @@
+{
+  "sourceUrl": "https://kko.to/00sUw3BbZV",
+  "providedResolvedSourceUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981",
+  "resolvedSourceUrl": "https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%97%B0%EC%88%98%EA%B5%AC+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981",
+  "pinCommand": "python3 scripts/greenpin.py pin 'https://map.kakao.com/?map_type=TYPE_SKYVIEW&map_hybrid=true&q=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C+%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EB%A1%9C+209&urlLevel=4&urlX=416966&urlY=1077981' --label '좌표 검증점'",
+  "pinCommandOutput": {
+    "sourceMapXY": {
+      "x": 416966.0,
+      "y": 1077981.0
+    },
+    "lat": 37.37946477171926,
+    "lon": 126.62499133649312,
+    "verificationUrl": "https://map.kakao.com/link/map/%EC%A2%8C%ED%91%9C%20%EA%B2%80%EC%A6%9D%EC%A0%90,37.37946477,126.62499134",
+    "status": "pin_generated_not_visually_verified"
+  },
+  "verificationUrl": "https://map.kakao.com/link/map/%EC%A2%8C%ED%91%9C%20%EA%B2%80%EC%A6%9D%EC%A0%90,37.37946477,126.62499134",
+  "actuallyOpenedFinalUrl": "https://map.kakao.com/?urlX=416966.0&urlY=1077981.0&name=%EC%A2%8C%ED%91%9C+%EA%B2%80%EC%A6%9D%EC%A0%90",
+  "coordinatePinVerified": true,
+  "visibleHoleNumber": 9,
+  "singleGreen": true,
+  "appearsAtGreenCenter": true,
+  "courseIdentityVerified": false,
+  "field": "not_checked",
+  "observations": [
+    "Exact generated WGS84 URL was opened in a new browser tab 5. Kakao redirected it to the same numeric XY with .0 suffix.",
+    "At 50m and 30m aerial view, blue pin tip directly overlaps visible map number 9 on one green. At 20m view the number disappears and pin remains approximately central within one green between lake to west and buildings to east. No paired green visible at that hole.",
+    "Map labels Links코스 and Urban코스 are visible nearby, but complete course identity was not independently verified from this one number.",
+    "Original short URL opened separately in tab 6, resolving with 연수구 in address query. Its address search marker lies elsewhere; it does not invalidate numeric XY."
+  ],
+  "defects": [
+    "Provided previously resolved URL lacks 연수구 in q compared with actual short-link browser redirect; numeric XY unchanged.",
+    "Closing the pin popup also removed pin; reloading restored it.",
+    "Immediate screenshot after zoom briefly showed old imagery; subsequent screenshot showed updated scale."
+  ],
+  "scope": "one point only; no nine-hole claim; no app data changed"
+}
