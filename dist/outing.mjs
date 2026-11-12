@@ -8,7 +8,7 @@ let context={club:'—',course:'links',hole:1};
 const db=new Promise((resolve,reject)=>{const r=indexedDB.open('hope-outing-media',1);r.onupgradeneeded=()=>r.result.createObjectStore('media');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
 db.catch(()=>{});
 async function media(action,key,value){const d=await db;return new Promise((resolve,reject)=>{const t=d.transaction('media',action==='get'?'readonly':'readwrite'),s=t.objectStore('media'),r=action==='get'?s.get(key):action==='put'?s.put(value,key):action==='delete'?s.delete(key):s.clear();let result;r.onsuccess=()=>{result=r.result;};t.oncomplete=()=>resolve(result);t.onerror=()=>reject(t.error);t.onabort=()=>reject(t.error);});}
-function save(){try{localStorage.setItem(KEY,JSON.stringify(state));return true;}catch{return false;}}
+function save(){if(state)state.updatedAt=Date.now();try{localStorage.setItem(KEY,JSON.stringify(state));return true;}catch{return false;}}
 function show(id){for(const s of ['#parking-screen','#welcome','#tee-ready','main','#finish-screen'])$(s).hidden=s!==id;}
 function localDate(){return new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(state?.createdAt||Date.now()));}
 async function fresh(){state={id:crypto.randomUUID(),createdAt:Date.now(),completed:0,reminded:false,parking:null,phase:'parking',caption:pickCaption()};photo=parkingPhoto=cardBlob=null;context.club='—';for(const id of ['#finish-parking','#finish-leave'])$(id).hidden=false;save();await media('clear').catch(()=>{});updatePhotoButtons();$('#parking-note').textContent='좌표나 사진, 편한 쪽 하나만.';$('#parking-skip').textContent='건너뛰고 시작';}
@@ -35,6 +35,8 @@ $('#finish-card').onclick=openPhoto;$('#finish-photo').onclick=openPhoto;
 $('#finish-leave').onclick=async()=>{if(processing)return;processing=true;try{for(const key of [KEY,'hope-live-round','hope-course'])localStorage.removeItem(key);await media('clear').catch(()=>{});photo=parkingPhoto=cardBlob=null;if(cardUrl)URL.revokeObjectURL(cardUrl);cardUrl=null;const img=$('#parking-image');if(img.dataset.url)URL.revokeObjectURL(img.dataset.url);img.src='';delete img.dataset.url;$('#parking-map').href='';$('#download-card').href='';$('#download-card').hidden=true;const canvas=$('#photo-canvas');canvas.width=canvas.height=0;state=null;context.club='—';updatePhotoButtons();for(const id of ['#finish-card','#finish-photo','#finish-parking','#finish-leave'])$(id).hidden=true;$('#finish-club').textContent='hope.';$('#finish-message').textContent='오늘 자료는 비웠습니다. 좋은 귀가 되세요.';document.dispatchEvent(new CustomEvent('hope:finished'));}finally{processing=false;}};
 $('#new-outing').onclick=async()=>{if(processing)return;await fresh();document.dispatchEvent(new CustomEvent('hope:new-outing'));show('#parking-screen');};
 export const outing={
+ session(){return state?{id:state.id,createdAt:state.createdAt,updatedAt:state.updatedAt??state.createdAt,phase:state.phase,club:state.club}:null;},
+ touch(){if(state)save();},
  clearClub(){delete state.club;state.phase='setup';state.completed=0;state.reminded=false;context.club='—';save();},
  selectClub(club){state.club=club;context.club=club;save();},
  selectedClub(){return state?.club||'';},

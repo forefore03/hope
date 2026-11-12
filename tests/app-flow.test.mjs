@@ -94,3 +94,17 @@ test('Songdo EAST/WEST uses user greens and live GPS rather than preview distanc
  get('#next-button').onclick();assert.equal(get('#next-course').value,'west');get('#next-confirm').onclick();assert.ok(get('#tee-course').textContent.includes('WEST 1번'));
  g=greenFor(songdo,'west',1);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));
 });
+
+test('phone-style reload restores tee waiting and playing offline without GPS or course downloads',async()=>{
+ get('#next-button').onclick();get('#next-confirm').onclick();
+ let s=JSON.parse(saved.get('hope-live-round'));assert.equal(s.phase,'tee');assert.equal(s.course,'west');assert.equal(s.hole,2);assert.ok(s.sessionId);assert.equal(s.tee,null);
+ const originalFetch=globalThis.fetch;let downloads=0;globalThis.fetch=async()=>{downloads++;throw Error('offline');};const beforeGps=gpsCalls;
+ try{
+  await import('../dist/app.mjs?offline-tee-restore');for(let i=0;i<15;i++)await new Promise(setImmediate);
+  assert.equal(get('#tee-ready').hidden,false);assert.ok(get('#tee-course').textContent.includes('WEST 2번'));assert.equal(downloads,0);assert.equal(gpsCalls,beforeGps);
+  const g=greenFor(songdo,'west',2);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();const remaining=get('#remain').textContent;
+  const afterGps=gpsCalls;await import('../dist/app.mjs?offline-playing-restore');for(let i=0;i<15;i++)await new Promise(setImmediate);
+  assert.equal(get('main').hidden,false);assert.equal(get('#remain').textContent,remaining);assert.ok(get('#round-note').textContent.includes('이전 측정값'));assert.equal(gpsCalls,afterGps);assert.equal(downloads,0);
+  assert.ok(saved.has('hope-active-pack'));await get('#finish-leave').onclick();assert.equal(saved.has('hope-active-pack'),false);assert.equal(saved.has('hope-live-round'),false);
+ }finally{globalThis.fetch=originalFetch;}
+});

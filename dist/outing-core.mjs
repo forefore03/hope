@@ -12,4 +12,4 @@ export const captions = [
 ];
 export function pickCaption(previous='', random=Math.random){const pool=captions.filter(x=>x!==previous);return pool[Math.min(pool.length-1,Math.max(0,Math.floor(random()*pool.length)))];}
 export function nextVisit(completed){const n=Math.max(0,Math.min(18,Number(completed)||0))+1;return {completed:n,finish:n>=18,remind:n===11};}
-export function validOuting(value,now=Date.now()){return !!value&&typeof value.id==='string'&&Number.isFinite(value.createdAt)&&now>=value.createdAt&&now-value.createdAt<24*3600000;}
+export function validOuting(value,now=Date.now()){return !!value&&typeof value.id==='string'&&Number.isFinite(value.createdAt)&&now>=value.createdAt&&Number.isFinite(value.updatedAt??value.createdAt)&&now>=(value.updatedAt??value.createdAt)&&now-(value.updatedAt??value.createdAt)<24*3600000;}

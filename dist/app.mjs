@@ -1,17 +1,19 @@
 import {coursePacks,packForClub,specForClub} from './course-catalog.mjs?v=lazy-20261112';
-import {outing} from './outing.mjs?v=parking-return-1';
+import {outing} from './outing.mjs?v=resume-3.1';
 import {distance,measure,validatePack,greenFor} from './golf-core.mjs';
 const $=s=>document.querySelector(s);
-const storage={get(k){try{return JSON.parse(localStorage.getItem(k));}catch{return null;}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}};
+const storage={remove(k){try{localStorage.removeItem(k);}catch{}},get(k){try{return JSON.parse(localStorage.getItem(k));}catch{return null;}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true;}catch{return false;}}};
 const fontReady=document.fonts.load('italic 800 100px MontserratFinal').catch(()=>[]);
 let packs=[],pack=null;
 const supportedClub=name=>!!specForClub(name);
 const pendingPacks=new Map();
 async function loadClub(name){
  const spec=specForClub(name);if(!spec)return null;
- const cached=packs.find(p=>p.id===spec.id);if(cached)return cached;
+ const session=outing.session(),cached=packs.find(p=>p.id===spec.id);if(cached){if(session)storage.set('hope-active-pack',{sessionId:session.id,pack:cached});return cached;}
+ const savedPack=storage.get('hope-active-pack');
+ if(session&&savedPack?.sessionId===session.id&&savedPack.pack?.id===spec.id){try{validatePack(savedPack.pack);packs.push(savedPack.pack);return savedPack.pack;}catch{storage.remove('hope-active-pack');}}
  if(!pendingPacks.has(spec.id))pendingPacks.set(spec.id,(async()=>{
-  try{const r=await fetch(spec.file);if(!r.ok)throw Error('코스 자료를 불러오지 못했습니다. 다시 눌러주세요.');const p=await r.json();validatePack(p);if(p.id!==spec.id)throw Error('골프장 코스 자료가 일치하지 않습니다.');packs.push(p);return p;}
+  try{const r=await fetch(spec.file);if(!r.ok)throw Error('코스 자료를 불러오지 못했습니다. 다시 눌러주세요.');const p=await r.json();validatePack(p);if(p.id!==spec.id)throw Error('골프장 코스 자료가 일치하지 않습니다.');packs.push(p);if(session&&outing.session()?.id===session.id)storage.set('hope-active-pack',{sessionId:session.id,pack:p});return p;}
   finally{pendingPacks.delete(spec.id);}
  })());
  return pendingPacks.get(spec.id);
@@ -31,8 +33,8 @@ function clearRound(){tee=null;total=null;lastPoint=null;lastMeasured=null;refre
 function title(){const greens=pointHole()?.greens||[];if(!greens.some(g=>g.id===greenId))greenId=greens[0]?.id||'A';outing.setContext({club,course,hole,isBusy:()=>busy});const par=pointHole()?.par??'—';$('#hole').textContent=` ${hole}번 홀 · PAR ${par}`;$('#course').value=course;$('#tee-course').textContent=`${club} · ${courseName(course)} ${hole}번 홀`;for(const select of document.querySelectorAll('.green-choice')){select.replaceChildren();for(const g of pointHole()?.greens||[]){const o=document.createElement('option');o.value=g.id;o.textContent=g.label||'Green '+g.id;select.append(o);}select.value=greenId;select.parentElement.hidden=greens.length<2;const detail=select.parentElement.querySelector?.('small');if(detail)detail.textContent=greens.some(g=>g.side)?'사용 그린을 선택하세요.':'A/B · 좌우 미확정';}}
 function note(text){$('#round-note').textContent=text;}
 function paint(values,showTeeDistance=false){lastMeasured=values;$('#remain').textContent=Number.isFinite(values?.remaining)?Math.round(values.remaining):'—';$('#from').textContent=Number.isFinite(values?.fromTee)?Math.round(values.fromTee):'—';$('#total b').textContent=Number.isFinite(values?.total)?Math.round(values.total):'—';$('.from').hidden=!showTeeDistance;$('.fill').style.height=((values?.progress||0)*100)+'%';$('.fill').style.width='100%';}
-function saveRound(){if(mode!=='live'||!tee||!lastMeasured)return;storage.set('hope-live-round',{club,course,hole,greenId,tee,total,refreshCount,lastPoint,lastMeasured,updatedAt:Date.now()});}
-function showTee(){title();paint(null);mode=supportedClub(club)?'live':'demo';$('#tee-fire').disabled=false;$('#tee-fire span').textContent='한 방 갑니다.';$('.tee-demo').textContent=mode==='live'?'등록한 그린 중앙까지 측정합니다. 현장 검증 전 잠정 좌표입니다.':'체험 모드 · 실제 위치·거리를 저장하지 않습니다.';$('#tee-error').textContent='';showScreen('#tee-ready');}
+function saveRound(){if(mode!=='live'||!supportedClub(club))return;const session=outing.session();if(!session)return;outing.touch();const stored=storage.set('hope-live-round',{schemaVersion:2,sessionId:session.id,phase:tee&&lastMeasured?'playing':'tee',club,course,hole,greenId,tee,total,refreshCount,lastPoint,lastMeasured,updatedAt:Date.now()});if(!stored){const warning='임시 저장 불가 · 앱을 닫으면 복원되지 않을 수 있습니다.';if(tee)note(warning);else $('#tee-error').textContent=warning;}}
+function showTee(){title();paint(null);mode=supportedClub(club)?'live':'demo';$('#tee-fire').disabled=false;$('#tee-fire span').textContent='한 방 갑니다.';$('.tee-demo').textContent=mode==='live'?'등록한 그린 중앙까지 측정합니다. 현장 검증 전 잠정 좌표입니다.':'체험 모드 · 실제 위치·거리를 저장하지 않습니다.';$('#tee-error').textContent='';showScreen('#tee-ready');saveRound();}
 function showSetup(){if(busy)return;mode='live';busy=false;fillOptions();updateWelcome();showScreen('#welcome');}
 async function getPosition(){if(!navigator.geolocation)throw Error('이 브라우저는 위치를 지원하지 않습니다.');const pos=await new Promise((resolve,reject)=>navigator.geolocation.getCurrentPosition(resolve,reject,{enableHighAccuracy:true,maximumAge:0,timeout:20000}));const p={lat:pos.coords.latitude,lon:pos.coords.longitude,accuracy:pos.coords.accuracy};if(!Number.isFinite(p.accuracy)||p.accuracy>100)throw Error('GPS 오차가 큽니다. 야외에서 다시 확인해주세요.');return p;}
 function positionError(e){return e.code===1?'위치 권한을 허용한 뒤 다시 눌러주세요.':e.code===3?'위치 확인 시간이 초과됐습니다. 다시 눌러주세요.':e.message||'현재 위치를 확인하지 못했습니다.';}
@@ -44,7 +46,7 @@ let tapTimer=null;$('.scene').onclick=()=>{if(tapTimer){clearTimeout(tapTimer);t
 $('#begin').onclick=async()=>{if(busy)return;if(!club||!supportedClub(club))return $('#locate').onclick();busy=true;$('#begin').disabled=true;try{await Promise.all([fontReady,loadClub(club)]);course=$('#start-course').value;hole=Number($('#start-hole').value)+1;clearRound();storage.set('hope-course',course);showTee();outing.offerPhoto();}catch(e){$('#location-note').textContent=e.message;}finally{busy=false;$('#begin').disabled=false;}};
 $('#tee-back').onclick=showSetup;$('#tee-back').onkeydown=e=>{if(e.key==='Enter')showSetup();};$('#tee-fire').onclick=startHole;$('#refresh-button').onclick=refresh;$('#next-button').onclick=nextHole;$('#return-setup').onclick=showSetup;$('#return-setup').onkeydown=e=>{if(e.key==='Enter')showSetup();};
 $('#course').onchange=e=>{if(busy){e.target.value=course;return;}course=e.target.value;hole=1;clearRound();storage.set('hope-live-round',null);showTee();};
-for(const select of document.querySelectorAll('.green-choice'))select.onchange=e=>{greenId=e.target.value;title();if(tee&&lastPoint&&mode==='live'){paint(measure(tee,lastPoint,pointGreen()),refreshCount===1);total=lastMeasured.total;saveRound();note(pointGreen()?.side?'선택 그린 변경 · '+pointGreen().label:'선택 그린 변경 · 좌·우 명칭 미확정 / 잠정 좌표');}};
+for(const select of document.querySelectorAll('.green-choice'))select.onchange=e=>{if(busy)return;greenId=e.target.value;title();saveRound();if(tee&&lastPoint&&mode==='live'){paint(measure(tee,lastPoint,pointGreen()),refreshCount===1);total=lastMeasured.total;saveRound();note(pointGreen()?.side?'선택 그린 변경 · '+pointGreen().label:'선택 그린 변경 · 좌·우 명칭 미확정 / 잠정 좌표');}};
 $('#club-clear').onclick=()=>{if(busy)return;club='';course='links';selectClubPack();hole=1;clearRound();storage.set('hope-live-round',null);outing.clearClub();fillOptions();updateWelcome();};
 $('#nearby-close').onclick=()=>$('#nearby').close();
 let nearbyRequest=0;
@@ -68,8 +70,21 @@ $('#locate').onclick=async()=>{
 };
 fillOptions();updateWelcome();paint(null);showScreen('#parking-screen');
 // Only real GPS rounds are restored; simulation never writes this record.
-(async()=>{const saved=storage.get('hope-live-round');if(saved&&saved.tee&&Date.now()-saved.updatedAt<12*3600000&&supportedClub(saved.club)){await loadClub(saved.club);club=saved.club;selectClubPack();course=saved.course;hole=saved.hole;greenId=saved.greenId||'A';if(!pointGreen()){await outing.init(false);return;}mode='live';tee=saved.tee;total=saved.total;refreshCount=saved.refreshCount;lastPoint=saved.lastPoint;title();paint(saved.lastMeasured,refreshCount===1);await outing.init(true);showScreen('main');$('#mode-badge').textContent='GPS · 마지막 측정값';note('이전 측정값입니다. 여기서 확인을 눌러 갱신해주세요.');}else{await outing.init(false);club=outing.selectedClub();if(supportedClub(club)){await loadClub(club);}selectClubPack();fillOptions();updateWelcome();}})().catch(e=>{$('#location-note').textContent=e.message;$('#begin').disabled=false;});
+(async()=>{
+ const saved=storage.get('hope-live-round'),session=outing.session();
+ const sameSession=session&&session.phase!=='finished'&&saved&&saved.club===session.club&&(saved.sessionId===session.id||(!saved.sessionId&&saved.tee));
+ if(sameSession&&saved.updatedAt<=Date.now()&&Date.now()-saved.updatedAt<24*3600000&&supportedClub(saved.club)){
+  await loadClub(saved.club);club=saved.club;selectClubPack();course=saved.course;hole=saved.hole;greenId=saved.greenId||'A';
+  if(pointGreen()){
+   mode='live';await outing.init(true);title();
+   if(saved.tee&&saved.lastMeasured){tee=saved.tee;total=saved.total;refreshCount=saved.refreshCount||0;lastPoint=saved.lastPoint;paint(saved.lastMeasured,refreshCount===1);showScreen('main');$('#mode-badge').textContent='GPS · 마지막 측정값';note('이전 측정값입니다. 여기서 확인을 눌러 갱신해주세요.');}
+   else{clearRound();greenId=saved.greenId||'A';showTee();}
+   return;
+  }
+ }
+ storage.remove('hope-live-round');if(!session)storage.remove('hope-course');if(!session||session.phase==='finished')storage.remove('hope-active-pack');
+ await outing.init(false);club=outing.selectedClub();if(supportedClub(club))await loadClub(club);selectClubPack();fillOptions();updateWelcome();
+})().catch(e=>{$('#location-note').textContent=e.message;$('#begin').disabled=false;});
 
-
-document.addEventListener('hope:finished',()=>{if(tapTimer){clearTimeout(tapTimer);tapTimer=null;}clearRound();note('');});
-document.addEventListener('hope:new-outing',()=>{club='';course='links';selectClubPack();clearRound();storage.set('hope-live-round',null);hole=1;fillOptions();updateWelcome();});
+document.addEventListener('hope:finished',()=>{if(tapTimer){clearTimeout(tapTimer);tapTimer=null;}clearRound();storage.remove('hope-live-round');if(!outing.session()||outing.session().phase==='finished'){storage.remove('hope-active-pack');packs=[];pack=null;}note('');});
+document.addEventListener('hope:new-outing',()=>{storage.remove('hope-active-pack');packs=[];pack=null;club='';course='links';selectClubPack();clearRound();storage.set('hope-live-round',null);hole=1;fillOptions();updateWelcome();});
