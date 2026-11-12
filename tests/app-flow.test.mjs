@@ -16,8 +16,9 @@ globalThis.indexedDB={open(){throw Error('media unavailable in this controller t
 const pack=JSON.parse(fs.readFileSync(new URL('../dist/data/flamingo.json',import.meta.url)));
 const jack=JSON.parse(fs.readFileSync(new URL('../dist/data/jack-nicklaus-korea.json',import.meta.url)));
 const verthill=JSON.parse(fs.readFileSync(new URL('../dist/data/verthill-yeongjong.json',import.meta.url)));
+const songdo=JSON.parse(fs.readFileSync(new URL('../dist/data/golfzoncounty-songdo.json',import.meta.url)));
 let clubResults=[{name:'플라밍고 CC',...pack.location},{name:'다른 CC',lat:38,lon:127}];
-globalThis.fetch=async url=>({ok:true,json:async()=>String(url).includes('golf-courses')?clubResults:String(url).includes('verthill-yeongjong')?verthill:String(url).includes('jack-nicklaus')?jack:pack});
+globalThis.fetch=async url=>({ok:true,json:async()=>String(url).includes('golf-courses')?clubResults:String(url).includes('golfzoncounty-songdo')?songdo:String(url).includes('verthill-yeongjong')?verthill:String(url).includes('jack-nicklaus')?jack:pack});
 let gpsCalls=0,position=pack.courses[0].holes[0].tees[0];
 Object.defineProperty(globalThis,'navigator',{configurable:true,value:{geolocation:{getCurrentPosition(resolve){gpsCalls++;resolve({coords:{latitude:position.lat,longitude:position.lon,accuracy:5}});}}}});
 test('parking skip, GPS refresh, 12th-hole nudge and 18-hole finish without score entry',async()=>{
@@ -81,4 +82,15 @@ test('Verthill 36-hole selection, live L/R updates, single-green target and next
  get('#return-setup').onclick();get('#start-course').value='sky';get('#start-hole').value='8';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();g=greenFor(verthill,'sky',9,'L');position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();
  get('#next-button').onclick();assert.equal(get('#next-course-label').hidden,false);assert.deepEqual(get('#next-course').children.map(o=>o.value),['verthill','sky','ocean','lake']);assert.equal(get('#next-course').value,'ocean');get('#next-confirm').onclick();assert.ok(get('#tee-course').textContent.includes('오션 1번'));assert.ok(get('#hole').textContent.includes('PAR 5'));
  get('#return-setup').onclick();await get('#locate').onclick();get('#nearby-list').children[1].onclick();assert.equal(get('.choices').hidden,true);assert.equal(get('#begin span').textContent,'다른 골프장 고르자');
+});
+
+test('Songdo EAST/WEST uses user greens and live GPS rather than preview distances',async()=>{
+ clubResults=[{name:'골프존카운티 송도 골프장',...songdo.location}];position={...songdo.location};await get('#locate').onclick();get('#nearby-list').children[0].onclick();
+ assert.deepEqual(get('#start-course').children.map(x=>x.value),['east','west']);
+ get('#start-course').value='east';get('#start-hole').value='0';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();
+ let g=greenFor(songdo,'east',1);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));assert.notEqual(get('#remain').textContent,400);assert.notEqual(get('#remain').textContent,383);
+ position={...g};await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,0);
+ get('#return-setup').onclick();get('#start-course').value='east';get('#start-hole').value='8';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();g=greenFor(songdo,'east',9);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();
+ get('#next-button').onclick();assert.equal(get('#next-course').value,'west');get('#next-confirm').onclick();assert.ok(get('#tee-course').textContent.includes('WEST 1번'));
+ g=greenFor(songdo,'west',1);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));
 });
