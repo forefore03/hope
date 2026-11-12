@@ -18,13 +18,13 @@ const jack=JSON.parse(fs.readFileSync(new URL('../dist/data/jack-nicklaus-korea.
 const verthill=JSON.parse(fs.readFileSync(new URL('../dist/data/verthill-yeongjong.json',import.meta.url)));
 const songdo=JSON.parse(fs.readFileSync(new URL('../dist/data/golfzoncounty-songdo.json',import.meta.url)));
 let clubResults=[{name:'플라밍고 CC',...pack.location},{name:'다른 CC',lat:38,lon:127}];
-globalThis.fetch=async url=>({ok:true,json:async()=>String(url).includes('golf-courses')?clubResults:String(url).includes('golfzoncounty-songdo')?songdo:String(url).includes('verthill-yeongjong')?verthill:String(url).includes('jack-nicklaus')?jack:pack});
+const fetched=[];globalThis.fetch=async url=>(fetched.push(String(url)),{ok:true,json:async()=>String(url).includes('golf-courses')?clubResults:String(url).includes('golfzoncounty-songdo')?songdo:String(url).includes('verthill-yeongjong')?verthill:String(url).includes('jack-nicklaus')?jack:pack});
 let gpsCalls=0,position=pack.courses[0].holes[0].tees[0];
 Object.defineProperty(globalThis,'navigator',{configurable:true,value:{geolocation:{getCurrentPosition(resolve){gpsCalls++;resolve({coords:{latitude:position.lat,longitude:position.lon,accuracy:5}});}}}});
 test('parking skip, GPS refresh, 12th-hole nudge and 18-hole finish without score entry',async()=>{
  await import('../dist/app.mjs');for(let i=0;i<10&&!saved.has('hope-outing-v1');i++)await new Promise(setImmediate);
- assert.equal(get('#parking-screen').hidden,false);assert.equal(gpsCalls,0);await get('#parking-save').onclick();assert.ok(JSON.parse(saved.get('hope-outing-v1')).parking);
- get('#parking-skip').onclick();assert.equal(get('#welcome').hidden,false);assert.equal(get('#welcome h1').textContent,'—');assert.equal(get('.choices').hidden,true);await get('#begin').onclick();assert.equal(get('#nearby').open,true);get('#nearby-list').children[0].onclick();assert.equal(get('#welcome h1').textContent,'플라밍고 CC');assert.equal(get('.choices').hidden,false);
+ assert.equal(get('#parking-screen').hidden,false);assert.equal(gpsCalls,0);assert.deepEqual(fetched.filter(u=>u.includes('./data/')),[]);await get('#parking-save').onclick();assert.ok(JSON.parse(saved.get('hope-outing-v1')).parking);
+ get('#parking-skip').onclick();assert.equal(get('#welcome').hidden,false);assert.equal(get('#welcome h1').textContent,'—');assert.equal(get('.choices').hidden,true);await get('#begin').onclick();assert.equal(get('#nearby').open,true);await get('#nearby-list').children[0].onclick();assert.deepEqual(fetched.filter(u=>u.includes('./data/')),['./data/flamingo.json']);assert.equal(get('#welcome h1').textContent,'플라밍고 CC');assert.equal(get('.choices').hidden,false);
  get('#start-course').value='links';get('#start-hole').value='0';await get('#begin').onclick();assert.equal(get('#photo-dialog').open,true);get('#photo-done').onclick();assert.equal(get('#photo-dialog').open,false);await get('#tee-fire').onclick();
  assert.equal(get('#remain').textContent,249);assert.equal(gpsCalls,3);
  position=interpolate(position,pack.courses[0].holes[0].greens[0],.5);await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,125);assert.equal(get('.from').hidden,false);
@@ -37,7 +37,7 @@ test('parking skip, GPS refresh, 12th-hole nudge and 18-hole finish without scor
  }
  assert.equal(JSON.parse(saved.get('hope-outing-v1')).completed,17);
  get('#next-button').onclick();assert.equal(get('#next-confirm').textContent,'마치기');get('#next-confirm').onclick();
- assert.equal(get('#finish-screen').hidden,false);assert.equal(get('main').hidden,true);assert.equal(saved.has('hope-live-round'),false);assert.equal(JSON.parse(saved.get('hope-outing-v1')).phase,'finished');assert.equal(get('#finish-card').hidden,true);assert.equal(gpsCalls,22);assert.ok(JSON.parse(saved.get('hope-outing-v1')).parking);await get('#parking-clear').onclick();assert.equal(JSON.parse(saved.get('hope-outing-v1')).parking,null);await get('#new-outing').onclick();get('#parking-skip').onclick();assert.equal(get('#welcome h1').textContent,'—');await get('#locate').onclick();get('#nearby-list').children[1].onclick();assert.equal(get('#welcome h1').textContent,'다른 CC');assert.equal(get('.choices').hidden,true);assert.equal(get('#begin').disabled,false);await import('../dist/app.mjs?restore-unsupported');for(let i=0;i<5;i++)await new Promise(setImmediate);assert.equal(get('#welcome h1').textContent,'다른 CC');assert.equal(get('#begin').disabled,false);assert.equal(get('#begin span').textContent,'다른 골프장 고르자');await get('#begin').onclick();assert.equal(get('#nearby').open,true);get('#nearby-close').onclick();get('#club-clear').onclick();assert.equal(get('#welcome h1').textContent,'—');assert.equal(JSON.parse(saved.get('hope-outing-v1')).club,undefined);assert.equal(get('#club-clear').hidden,true);await get('#begin').onclick();get('#nearby-list').children[0].onclick();assert.equal(get('#welcome h1').textContent,'플라밍고 CC');assert.equal(get('#begin').disabled,false);
+ assert.equal(get('#finish-screen').hidden,false);assert.equal(get('main').hidden,true);assert.equal(saved.has('hope-live-round'),false);assert.equal(JSON.parse(saved.get('hope-outing-v1')).phase,'finished');assert.equal(get('#finish-card').hidden,true);assert.equal(gpsCalls,22);assert.ok(JSON.parse(saved.get('hope-outing-v1')).parking);await get('#parking-clear').onclick();assert.equal(JSON.parse(saved.get('hope-outing-v1')).parking,null);await get('#new-outing').onclick();get('#parking-skip').onclick();assert.equal(get('#welcome h1').textContent,'—');await get('#locate').onclick();await get('#nearby-list').children[1].onclick();assert.equal(get('#welcome h1').textContent,'다른 CC');assert.equal(get('.choices').hidden,true);assert.equal(get('#begin').disabled,false);await import('../dist/app.mjs?restore-unsupported');for(let i=0;i<5;i++)await new Promise(setImmediate);assert.equal(get('#welcome h1').textContent,'다른 CC');assert.equal(get('#begin').disabled,false);assert.equal(get('#begin span').textContent,'다른 골프장 고르자');await get('#begin').onclick();assert.equal(get('#nearby').open,true);get('#nearby-close').onclick();get('#club-clear').onclick();assert.equal(get('#welcome h1').textContent,'—');assert.equal(JSON.parse(saved.get('hope-outing-v1')).club,undefined);assert.equal(get('#club-clear').hidden,true);await get('#begin').onclick();await get('#nearby-list').children[0].onclick();assert.equal(get('#welcome h1').textContent,'플라밍고 CC');assert.equal(get('#begin').disabled,false);
 });
 
 
@@ -60,18 +60,18 @@ test('welcome can return to parking without deleting the current outing',()=>{ge
 
 test('Jack Urban/Links selection, GPS refresh, course change and restoring shared Links ID stay in correct club',async()=>{
  clubResults=[{name:'잭 니클라우스 골프클럽 코리아',...jack.location},{name:'플라밍고C.C',...pack.location}];
- position={...jack.location};await get('#locate').onclick();get('#nearby-list').children[0].onclick();assert.deepEqual(get('#start-course').children.map(x=>x.value),['urban','links']);assert.equal(get('#start-course').value,'urban');
+ position={...jack.location};await get('#locate').onclick();await get('#nearby-list').children[0].onclick();assert.deepEqual(get('#start-course').children.map(x=>x.value),['urban','links']);assert.equal(get('#start-course').value,'urban');
  get('#start-course').value='urban';get('#start-hole').value='0';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();
  let g=greenFor(jack,'urban',1);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));assert.ok(get('#tee-course').textContent.includes('어반 1번'));assert.ok(get('#hole').textContent.includes('PAR 4'));
  position=interpolate(position,g,.5);await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,111);
  get('#course').onchange({target:{value:'links'}});g=greenFor(jack,'links',1);position={lat:g.lat+.003,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));assert.ok(get('#tee-course').textContent.includes('링크스 1번'));
  await import('../dist/app.mjs?restore-jack');for(let i=0;i<10;i++)await new Promise(setImmediate);assert.ok(get('#tee-course').textContent.includes('잭 니클라우스'));await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));
- get('#return-setup').onclick();await get('#locate').onclick();get('#nearby-list').children[1].onclick();assert.deepEqual(get('#start-course').children.map(x=>x.value),['links','park','dunes']);
+ get('#return-setup').onclick();await get('#locate').onclick();await get('#nearby-list').children[1].onclick();assert.deepEqual(get('#start-course').children.map(x=>x.value),['links','park','dunes']);
 });
 
 test('Verthill 36-hole selection, live L/R updates, single-green target and next-course selection',async()=>{
  clubResults=[{name:'베르힐CC 영종',...verthill.location},{name:'베르힐컨트리클럽',lat:35.0782592663044,lon:126.564189483075}];
- position={...verthill.location};await get('#locate').onclick();assert.ok(get('#nearby-list').children[0].children[1].textContent.includes('36홀'));get('#nearby-list').children[0].onclick();
+ position={...verthill.location};await get('#locate').onclick();assert.ok(get('#nearby-list').children[0].children[1].textContent.includes('36홀'));await get('#nearby-list').children[0].onclick();
  assert.deepEqual(get('#start-course').children.map(x=>x.value),['verthill','sky','ocean','lake']);
  get('#start-course').value='verthill';get('#start-hole').value='3';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();
  assert.ok(get('#tee-course').textContent.includes('베르힐 4번'));assert.deepEqual(greens[0].children.map(o=>o.textContent),['좌그린','우그린']);assert.equal(greens[0].parentElement.hidden,false);
@@ -81,11 +81,11 @@ test('Verthill 36-hole selection, live L/R updates, single-green target and next
  assert.ok(get('#hole').textContent.includes('PAR 3'));assert.equal(greens[0].parentElement.hidden,true);g=greenFor(verthill,'sky',6);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();position={...g};await get('#refresh-button').onclick();assert.equal(get('#remain').textContent,0);assert.equal(get('.fill').style.height,'100%');
  get('#return-setup').onclick();get('#start-course').value='sky';get('#start-hole').value='8';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();g=greenFor(verthill,'sky',9,'L');position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();
  get('#next-button').onclick();assert.equal(get('#next-course-label').hidden,false);assert.deepEqual(get('#next-course').children.map(o=>o.value),['verthill','sky','ocean','lake']);assert.equal(get('#next-course').value,'ocean');get('#next-confirm').onclick();assert.ok(get('#tee-course').textContent.includes('오션 1번'));assert.ok(get('#hole').textContent.includes('PAR 5'));
- get('#return-setup').onclick();await get('#locate').onclick();get('#nearby-list').children[1].onclick();assert.equal(get('.choices').hidden,true);assert.equal(get('#begin span').textContent,'다른 골프장 고르자');
+ get('#return-setup').onclick();await get('#locate').onclick();await get('#nearby-list').children[1].onclick();assert.equal(get('.choices').hidden,true);assert.equal(get('#begin span').textContent,'다른 골프장 고르자');
 });
 
 test('Songdo EAST/WEST uses user greens and live GPS rather than preview distances',async()=>{
- clubResults=[{name:'골프존카운티 송도 골프장',...songdo.location}];position={...songdo.location};await get('#locate').onclick();get('#nearby-list').children[0].onclick();
+ clubResults=[{name:'골프존카운티 송도 골프장',...songdo.location}];position={...songdo.location};await get('#locate').onclick();await get('#nearby-list').children[0].onclick();
  assert.deepEqual(get('#start-course').children.map(x=>x.value),['east','west']);
  get('#start-course').value='east';get('#start-hole').value='0';await get('#begin').onclick();if(get('#photo-dialog').open)get('#photo-done').onclick();
  let g=greenFor(songdo,'east',1);position={lat:g.lat+.002,lon:g.lon};await get('#tee-fire').onclick();assert.equal(get('#remain').textContent,Math.round(distance(position,g)));assert.notEqual(get('#remain').textContent,400);assert.notEqual(get('#remain').textContent,383);
