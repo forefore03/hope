@@ -1,5 +1,5 @@
 // Only public application files are cached here. No GPS, photos or course packs.
-const CACHE='hope-shell-3.1';
+const CACHE='hope-shell-3.1-vlabel';
 const SHELL=['./index.html','./entry.mjs','./app.mjs','./outing.mjs','./outing-core.mjs','./golf-core.mjs','./course-catalog.mjs','./preview.mjs','./preview-core.mjs','./montserrat-digits.ttf'];
 const ROOT=new URL('./',self.location.href);
 const ALLOWED=new Set(SHELL.map(p=>new URL(p,ROOT).pathname));
